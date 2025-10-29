@@ -4,10 +4,12 @@ import React from "react";
 
 import { motion } from "framer-motion";
 import { Lightbulb, TrendingUp } from "lucide-react";
+import Link from "next/link";
 
 export default function Hero2() {
   const fadeIn = { opacity: 0, y: 20 };
   const fadeInView = { opacity: 1, y: 0 };
+  const MotionLink = motion(Link);
 
   return (
     <section className="w-full bg-[#f2f4f7] py-12 px-4 sm:px-6 lg:px-8">
@@ -56,13 +58,14 @@ export default function Hero2() {
               ))}
             </div>
 
-            <motion.button
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.97 }}
-              className="bg-[#17223b] text-white font-medium px-6 py-2.5 sm:py-3 rounded-full text-sm sm:text-base shadow-md hover:bg-[#d4af37] hover:text-[#17223b] transition-all"
-            >
-              Discover More
-            </motion.button>
+            <MotionLink
+      whileHover={{ scale: 1.05 }}
+      whileTap={{ scale: 0.97 }}
+      href="/about"
+      className="bg-[#17223b] text-white font-medium px-6 py-2.5 sm:py-3 rounded-full text-sm sm:text-base shadow-md hover:bg-[#d4af37] hover:text-[#17223b] transition-all"
+    >
+      Discover More
+    </MotionLink>
           </motion.div>
 
           {/* Right Image Section */}

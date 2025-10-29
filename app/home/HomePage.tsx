@@ -4,6 +4,7 @@ import Hero2 from '../_components/hero2'
 import WhyUsSection from '../_components/whyUs'
 import GrowthMission from '../_components/growthmission'
 import ServicesHome from '../_components/seviceshome'
+import FAQ from '../_components/faq\'s'
 
 export default function HomePage() {
   return (
@@ -13,6 +14,7 @@ export default function HomePage() {
     <WhyUsSection />
     <GrowthMission />
     <ServicesHome />
+    <FAQ />
     </>
   )
 }

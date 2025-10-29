@@ -55,13 +55,13 @@ export default function Hero() {
           className="mt-10 flex flex-col sm:flex-row gap-4 justify-center"
         >
           <Link
-            href="#contact"
+            href="contact"
             className="px-8 py-3 sm:px-10 sm:py-3 rounded-full bg-[#d4af37] text-[#17223b] font-semibold hover:bg-[#b8932d] transition-all duration-300 shadow-lg hover:shadow-[#d4af37]/50"
           >
             Contact Us
           </Link>
           <Link
-            href="#services"
+            href="contact-center"
             className="px-8 py-3 sm:px-10 sm:py-3 rounded-full border-2 border-[#d4af37] text-[#d4af37] font-semibold hover:bg-[#d4af37] hover:text-[#17223b] transition-all duration-300"
           >
             Explore Services

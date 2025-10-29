@@ -50,16 +50,14 @@ export default function Navbar() {
       name: "Case Study",
       dropdown: [
         { name: "Case Study 1", href: "/case-study1" },
-        { name: "Case Study 2", href: "/case-study/2" },
+        { name: "Case Study 2", href: "/case-study2" },
       ],
     },
     {
       name: "System",
       dropdown: [
         { name: "Technology", href: "/technology" },
-        { name: "Security & Facility", href: "/security" },
         { name: "Recruitment", href: "/recruitment" },
-        { name: "FAQ’s", href: "/faq" },
       ],
     },
     { name: "Careers", href: "/careers" },

@@ -17,6 +17,7 @@ import {
   Leaf,
 } from "lucide-react";
 import { useRouter } from "next/navigation";
+import Link from "next/link";
 
 const servicesTop = [
   {
@@ -96,7 +97,7 @@ export default function AboutHero3() {
   }, []);
 
   const handleClick = (service: string) => {
-    router.push("/main");
+    router.push("/bpo&consulting");
   };
 
   return (
@@ -262,33 +263,30 @@ export default function AboutHero3() {
           </div>
 
           {/* Card 2 */}
-          <div
-            onClick={() => handleClick("contact")}
-            role="button"
-            tabIndex={0}
-            onKeyDown={(e) => e.key === "Enter" && handleClick("contact")}
-            className={`cursor-pointer bg-[url('/images/m6-Cd-SZjov.webp')] bg-cover bg-center bg-no-repeat text-white rounded-xl shadow-lg p-10
-    w-full md:w-[30%]
-    transform transition-all duration-300 ease-in-out
-    ${
-      animate ? "opacity-100 scale-100" : "opacity-0 scale-90"
-    } hover:scale-[1.05] hover:shadow-[0_0_20px_rgba(212,175,55,0.7)] hover:-translate-y-2
-    focus:outline-none focus:ring-4 focus:ring-[#d4af37]/60 flex flex-col justify-between relative overflow-hidden`}
-          >
-            {/* Dark + Gradient Overlay for better text contrast */}
-            <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/50 to-transparent z-0"></div>
+        <Link
+      href="/contact-center"
+      className={`block cursor-pointer bg-[url('/images/m6-Cd-SZjov.webp')] bg-cover bg-center bg-no-repeat text-white rounded-xl shadow-lg p-10
+        w-full md:w-[30%]
+        transform transition-all duration-300 ease-in-out
+        ${
+          animate ? "opacity-100 scale-100" : "opacity-0 scale-90"
+        } hover:scale-[1.05] hover:shadow-[0_0_20px_rgba(212,175,55,0.7)] hover:-translate-y-2
+        focus:outline-none focus:ring-4 focus:ring-[#d4af37]/60 flex flex-col justify-between relative overflow-hidden`}
+    >
+      {/* Dark + Gradient Overlay for better text contrast */}
+      <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/50 to-transparent z-0"></div>
 
-            <div className="relative z-10">
-              <h3 className="text-3xl font-bold mb-5 select-none text-[#d4af37] drop-shadow-[0_2px_3px_rgba(0,0,0,0.8)]">
-                Contact Center Services
-              </h3>
-              <p className="text-md leading-relaxed select-none drop-shadow-[0_2px_3px_rgba(0,0,0,0.8)]">
-                Logiczo Outsourcing Pvt Ltd is known for its efficiency in
-                delivering cost-effective business process outsourcing
-                solutions.
-              </p>
-            </div>
-          </div>
+      <div className="relative z-10">
+        <h3 className="text-3xl font-bold mb-5 select-none text-[#d4af37] drop-shadow-[0_2px_3px_rgba(0,0,0,0.8)]">
+          Contact Center Services
+        </h3>
+        <p className="text-md leading-relaxed select-none drop-shadow-[0_2px_3px_rgba(0,0,0,0.8)]">
+          Logiczo Outsourcing Pvt Ltd is known for its efficiency in delivering
+          cost-effective business process outsourcing solutions.
+        </p>
+      </div>
+    </Link>
+  
 
           {/* Card 3 */}
           <div

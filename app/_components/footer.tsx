@@ -9,13 +9,12 @@ import React from "react";
 const footerLinks = {
   company: [
     { name: "About Us", href: "/about" },
-    { name: "Services", href: "/services" },
-    { name: "Careers", href: "/careers" },
+    { name: "Services", href: "/contact-center" },
     { name: "Contact", href: "/contact" },
   ],
   direct: [
-    { name: "BPO Services", href: "/bpo-services" },
-    { name: "Case Study", href: "/case-study" },
+    { name: "BPO Services", href: "/bpo&consulting" },
+    { name: "Case Study", href: "/case-study1" },
     { name: "Recruitment", href: "/recruitment" },
     { name: "Careers", href: "/careers" },
   ],

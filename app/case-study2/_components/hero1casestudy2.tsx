@@ -4,7 +4,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-const Hero1casestudy1: React.FC = () => {
+const Hero1casestudy2: React.FC = () => {
   return (
     <section
       className="relative w-full h-screen flex items-center justify-center text-center overflow-hidden bg-cover bg-center"
@@ -21,7 +21,7 @@ const Hero1casestudy1: React.FC = () => {
         className="relative z-10 max-w-4xl px-4"
       >
         <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
-          Case Study: How Logicczo <span className="text-[#d4af37]">Helped Market </span> Central Grow
+          Case Study: How Logicczo <span className="text-[#d4af37]">Helped The company from the</span> USA Grow
         </h1>
         <p className="text-lg md:text-2xl text-gray-200 hover:text-white transition-colors duration-500">
           Empowering Market Central’s Growth
@@ -43,4 +43,4 @@ const Hero1casestudy1: React.FC = () => {
   );
 };
 
-export default Hero1casestudy1;
+export default Hero1casestudy2;
