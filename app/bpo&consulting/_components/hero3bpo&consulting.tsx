@@ -21,56 +21,60 @@ export default function Hero3BpoConsulting() {
   return (
     <>
       {/* What We Offer Section */}
-      <section className="flex flex-col md:flex-row items-center justify-center gap-10 md:gap-20 px-6 md:px-16 py-20 bg-[#f9fafb]">
-        {/* Image Section */}
-        <motion.div
-          initial={{ opacity: 0, x: -60 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.7, ease: "easeOut" }}
-          className="flex justify-center md:w-1/2"
-        >
-          <div className="relative group">
-            <Image
-              src="/images/m11-R-183RRJ.webp"
-              alt="BPO Consulting"
-              width={500}
-              height={500}
-              className="rounded-2xl transition-transform duration-500 group-hover:scale-105"
-            />
-            <div className="absolute inset-0 rounded-2xl bg-gradient-to-t from-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-          </div>
-        </motion.div>
+      <section className="bg-[#f9fafb] py-20 px-6 md:px-10">
+        <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-center gap-10 md:gap-20">
+          {/* Image Section */}
+          <motion.div
+            initial={{ opacity: 0, x: -60 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.7, ease: "easeOut" }}
+            viewport={{ once: true }}
+            className="flex justify-center md:w-1/2"
+          >
+            <div className="relative group">
+              <Image
+                src="/images/m11-R-183RRJ.webp"
+                alt="BPO Consulting"
+                width={500}
+                height={500}
+                className="rounded-2xl transition-transform duration-500 group-hover:scale-105"
+              />
+              <div className="absolute inset-0 rounded-2xl bg-gradient-to-t from-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+            </div>
+          </motion.div>
 
-        {/* Content Section */}
-        <motion.div
-          initial={{ opacity: 0, x: 60 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.7, ease: "easeOut" }}
-          className="md:w-1/2"
-        >
-          <h2 className="text-3xl md:text-4xl font-bold text-[#0a2540] mb-6">
-            What We Offer
-          </h2>
-          <ul className="space-y-5">
-            {offers.map((offer, index) => (
-              <motion.li
-                key={index}
-                whileHover={{ scale: 1.03 }}
-                className="flex items-start gap-3 group rounded-xl p-4 transition-all duration-300 hover:bg-[#d4af37]/10"
-              >
-                <CheckCircle2 className="text-[#d4af37] w-6 h-6 flex-shrink-0 group-hover:text-[#d4af37]" />
-                <p className="text-gray-700 text-lg group-hover:text-[#0a2540] transition-colors duration-300">
-                  {offer}
-                </p>
-              </motion.li>
-            ))}
-          </ul>
-        </motion.div>
+          {/* Content Section */}
+          <motion.div
+            initial={{ opacity: 0, x: 60 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.7, ease: "easeOut" }}
+            viewport={{ once: true }}
+            className="md:w-1/2"
+          >
+            <h2 className="text-3xl md:text-4xl font-bold text-[#0a2540] mb-6">
+              What We Offer
+            </h2>
+            <ul className="space-y-5">
+              {offers.map((offer, index) => (
+                <motion.li
+                  key={index}
+                  whileHover={{ scale: 1.03 }}
+                  className="flex items-start gap-3 group rounded-xl p-4 transition-all duration-300 hover:bg-[#d4af37]/10"
+                >
+                  <CheckCircle2 className="text-[#d4af37] w-6 h-6 flex-shrink-0 group-hover:text-[#d4af37]" />
+                  <p className="text-gray-700 text-lg group-hover:text-[#0a2540] transition-colors duration-300">
+                    {offer}
+                  </p>
+                </motion.li>
+              ))}
+            </ul>
+          </motion.div>
+        </div>
       </section>
 
       {/* Benefits Section */}
-      <section className="bg-[#f5f9ff] py-16 px-6 md:px-10">
-        <div className="max-w-7xl mx-auto">
+      <section className="max-w-7xl mx-auto  py-16 px-6 md:px-10">
+        <div className=" mx-auto">
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -91,7 +95,7 @@ export default function Hero3BpoConsulting() {
                 viewport={{ once: true }}
                 className="flex items-center gap-3"
               >
-                <CheckCircle2 className="text-green-500 w-6 h-6 flex-shrink-0" />
+                <CheckCircle2 className="text-[#d4af37] w-6 h-6 flex-shrink-0" />
                 <span className="text-gray-700 text-lg font-medium">
                   {benefit}
                 </span>

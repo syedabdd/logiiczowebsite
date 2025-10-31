@@ -102,7 +102,7 @@ export default function AboutHero3() {
 
   return (
     <section className="w-full bg-[#f8fbff]">
-      <div className=" max-w-6xl mx-auto px-4 py-20">
+      <div className=" max-w-7xl mx-auto px-3 py-20">
         {/* ---------- SECTION 1: Powering Your Business Success ---------- */}
         <motion.h2
           initial={{ opacity: 0, y: 30 }}

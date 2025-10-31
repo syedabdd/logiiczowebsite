@@ -83,9 +83,10 @@ export default function Hero2Recruitment() {
       <div className="flex flex-col md:flex-row items-center justify-center gap-10">
         {/* Left Image */}
         <motion.div
-          initial={{ opacity: 0, x: -60 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.8 }}
+          initial={{ opacity: 0, scale: 0.9 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+          viewport={{ once: true }}
           className="w-full md:w-1/2 flex justify-center"
         >
           <Image
@@ -99,9 +100,10 @@ export default function Hero2Recruitment() {
 
         {/* Right Text */}
         <motion.div
-          initial={{ opacity: 0, x: 60 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.8 }}
+          initial={{ opacity: 0, scale: 0.9 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+          viewport={{ once: true }}
           className="w-full md:w-1/2 text-center md:text-left"
         >
           <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
@@ -122,9 +124,10 @@ export default function Hero2Recruitment() {
 
       {/* Process Overview */}
       <motion.h3
-        initial={{ opacity: 0, y: 20 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.6 }}
+        initial={{ opacity: 0, scale: 0.9 }}
+        whileInView={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 0.7, ease: "easeOut" }}
+        viewport={{ once: true }}
         className="text-center text-2xl md:text-3xl font-semibold text-gray-900 mb-10"
       >
         Language Testing Process <span className="text-[#d4af37]">Overview</span>
@@ -134,8 +137,11 @@ export default function Hero2Recruitment() {
         {processes.map((item, i) => (
           <motion.div
             key={i}
+            initial={{ opacity: 0, scale: 0.9 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.6, delay: i * 0.2, ease: "easeOut" }}
+            viewport={{ once: true }}
             whileHover={{ y: -10, scale: 1.03 }}
-            transition={{ type: "spring", stiffness: 200 }}
             className="bg-white p-8 rounded-2xl shadow-md hover:shadow-xl text-center border-t-4 border-[#d4af37] hover:bg-[#fffaf0] transition-all duration-500"
           >
             <div className="flex justify-center mb-4">{item.icon}</div>
@@ -152,9 +158,10 @@ export default function Hero2Recruitment() {
       {/* SECTION 2 - TIMELINE */}
       <div className="mt-24">
         <motion.h2
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
+          initial={{ opacity: 0, scale: 0.9 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+          viewport={{ once: true }}
           className="text-center text-3xl md:text-4xl font-bold text-gray-900 mb-16"
         >
           Language Excellence <span className="text-[#d4af37]">Journey</span>
@@ -167,9 +174,10 @@ export default function Hero2Recruitment() {
           {steps.map((step, index) => (
             <motion.div
               key={index}
-              initial={{ opacity: 0, y: 40 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: index * 0.2 }}
+              initial={{ opacity: 0, scale: 0.9 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.6, delay: index * 0.2, ease: "easeOut" }}
+              viewport={{ once: true }}
               className={`relative flex flex-col md:flex-row items-start md:items-center gap-6 mb-12 ${
                 index % 2 === 0 ? "md:flex-row-reverse" : ""
               }`}
@@ -212,12 +220,13 @@ export default function Hero2Recruitment() {
         </div>
       </div>
 
-      {/* SECTION 3 - COMMITMENT TO WORLD-CLASS COMMUNICATION */}
+      {/* SECTION 3 - COMMITMENT */}
       <div className="mt-32 bg-[#d4af37]/10 p-10 md:p-16 rounded-2xl shadow-md text-center">
         <motion.h2
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
+          initial={{ opacity: 0, scale: 0.9 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+          viewport={{ once: true }}
           className="text-2xl md:text-3xl font-bold text-gray-900 mb-4"
         >
           A Commitment to{" "}
@@ -226,12 +235,13 @@ export default function Hero2Recruitment() {
         <motion.p
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          transition={{ duration: 1 }}
+          transition={{ duration: 1, ease: "easeOut" }}
+          viewport={{ once: true }}
           className="text-gray-700 max-w-3xl mx-auto mb-8"
         >
           Our language evaluation process guarantees that our agents possess the
-          skills to represent your brand with clarity and professionalism.
-          Choose Logicczo as your partner in exceptional customer service.
+          skills to represent your brand with clarity and professionalism. Choose
+          Logicczo as your partner in exceptional customer service.
         </motion.p>
         <motion.button
           whileHover={{ scale: 1.05 }}

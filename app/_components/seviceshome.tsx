@@ -44,7 +44,7 @@ const ServicesHome: React.FC = () => {
         Our BPO Consulting service focuses on analyzing and transforming your business processes
         to maximize operational efficiency and reduce costs.
       </p>
-      <ul className="list-disc list-inside space-y-2 text-sm text-[#d4af37] select-none">
+      <ul className="list-disc ml-4 space-y-2 text-sm text-[#d4af37] select-none">
         <li>Process assessment and optimization strategies</li>
         <li>Cost reduction through intelligent outsourcing</li>
         <li>Implementation of technology-driven solutions</li>
@@ -73,7 +73,7 @@ const ServicesHome: React.FC = () => {
         Deliver exceptional customer engagement through our multi-channel contact
         center solutions, tailored to boost satisfaction and loyalty.
       </p>
-      <ul className="list-disc list-inside space-y-2 text-sm text-[#d4af37] select-none">
+      <ul className="list-disc ml-4 space-y-2 text-sm text-[#d4af37] select-none">
         <li>Inbound and outbound call management</li>
         <li>Omnichannel support: phone, chat, email, social media</li>
         <li>Quality assurance and agent training programs</li>

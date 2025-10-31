@@ -33,7 +33,7 @@ export default function Hero2BPOConsulting() {
   ];
 
   return (
-    <section className="flex flex-col md:flex-row items-center justify-between px-6 md:px-10 lg:px-16 py-10 gap-12 max-w-7xl mx-auto">
+    <section className="flex flex-col md:flex-row items-center justify-between px-6 lg:px-10 xl:px-16 py-10 gap-12 max-w-7xl mx-auto">
       {/* Left Content */}
       <motion.div
         initial={{ opacity: 0, x: -60 }}
@@ -42,7 +42,7 @@ export default function Hero2BPOConsulting() {
         viewport={{ once: true }}
         className="md:w-1/2 space-y-6"
       >
-        <p className="text-blue-600 font-semibold uppercase tracking-wide">
+        <p className="text-[#d4af37] font-semibold uppercase tracking-wide">
           BPO Consulting
         </p>
         <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 leading-tight">
