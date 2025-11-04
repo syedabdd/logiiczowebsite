@@ -21,12 +21,12 @@ export default function Hero3BpoConsulting() {
   return (
     <>
       {/* What We Offer Section */}
-      <section className="bg-[#f9fafb] py-20 px-6 md:px-10">
+      <section className="bg-gray-100 py-20 px-6 md:px-10">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-center gap-10 md:gap-20">
           {/* Image Section */}
           <motion.div
-            initial={{ opacity: 0, x: -60 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, ease: "easeOut" }}
             viewport={{ once: true }}
             className="flex justify-center md:w-1/2"
@@ -45,8 +45,8 @@ export default function Hero3BpoConsulting() {
 
           {/* Content Section */}
           <motion.div
-            initial={{ opacity: 0, x: 60 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, ease: "easeOut" }}
             viewport={{ once: true }}
             className="md:w-1/2"
@@ -58,11 +58,15 @@ export default function Hero3BpoConsulting() {
               {offers.map((offer, index) => (
                 <motion.li
                   key={index}
+                  initial={{ opacity: 0, y: 30 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5, delay: index * 0.1 }}
+                  viewport={{ once: true }}
                   whileHover={{ scale: 1.03 }}
-                  className="flex items-start gap-3 group rounded-xl p-4 transition-all duration-300 hover:bg-[#d4af37]/10"
+                  className="flex items-start gap-3 group rounded-xl py-4 px-0 md:px-4 transition-all duration-300 hover:bg-[#d4af37]/10"
                 >
                   <CheckCircle2 className="text-[#d4af37] w-6 h-6 flex-shrink-0 group-hover:text-[#d4af37]" />
-                  <p className="text-gray-700 text-lg group-hover:text-[#0a2540] transition-colors duration-300">
+                  <p className="text-gray-700 font-serif text-lg group-hover:text-[#0a2540] transition-colors duration-300">
                     {offer}
                   </p>
                 </motion.li>
@@ -73,14 +77,14 @@ export default function Hero3BpoConsulting() {
       </section>
 
       {/* Benefits Section */}
-      <section className="max-w-7xl mx-auto  py-16 px-6 md:px-10">
-        <div className=" mx-auto">
+      <section className="max-w-7xl mx-auto py-16 px-6 md:px-10">
+        <div className="mx-auto">
           <motion.h2
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
+            transition={{ duration: 0.6, ease: "easeOut" }}
             viewport={{ once: true }}
-            className="text-2xl md:text-3xl font-bold text-[#0e2446] mb-10 text-center md:text-left"
+            className="text-2xl md:text-3xl font-bold text-[#0e2446] mb-10 text-left "
           >
             Benefits of Our BPO & Consulting Services
           </motion.h2>
@@ -89,14 +93,14 @@ export default function Hero3BpoConsulting() {
             {benefits.map((benefit, index) => (
               <motion.div
                 key={index}
-                initial={{ opacity: 0, x: index % 2 === 0 ? -40 : 40 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                transition={{ duration: 0.5, delay: index * 0.1 }}
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: index * 0.1, ease: "easeOut" }}
                 viewport={{ once: true }}
                 className="flex items-center gap-3"
               >
                 <CheckCircle2 className="text-[#d4af37] w-6 h-6 flex-shrink-0" />
-                <span className="text-gray-700 text-lg font-medium">
+                <span className="text-gray-700 font-serif text-lg font-medium">
                   {benefit}
                 </span>
               </motion.div>

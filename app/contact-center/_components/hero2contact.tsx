@@ -84,7 +84,7 @@ export default function Hero2Contact() {
                 <h3 className="text-lg md:text-xl font-semibold text-gray-900 group-hover:text-[#d4af37] transition-colors duration-300">
                   {service.title}
                 </h3>
-                <p className="text-gray-600 text-sm md:text-base mt-3 leading-relaxed">
+                <p className="text-gray-600 font-serif text-sm md:text-base mt-3 leading-relaxed">
                   {service.desc}
                 </p>
 

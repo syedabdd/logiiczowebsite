@@ -46,9 +46,10 @@ export default function Hero2CaseStudy1() {
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-center gap-10">
           {/* Left Image */}
           <motion.div
-            initial={{ opacity: 0, x: -80 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
+            viewport={{ once: true }}
             className="w-full md:w-1/2 flex justify-center"
           >
             <div className="relative w-full max-w-[600px] rounded-2xl overflow-hidden shadow-xl hover:scale-[1.02] hover:shadow-2xl transition-all duration-300 ease-in-out">
@@ -64,23 +65,24 @@ export default function Hero2CaseStudy1() {
 
           {/* Right Content */}
           <motion.div
-            initial={{ opacity: 0, x: 80 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
+            viewport={{ once: true }}
             className="w-full md:w-1/2 space-y-5 text-center md:text-left"
           >
             <h2 className="text-2xl md:text-3xl font-semibold text-[#1e2a47]">
               About <span className="text-[#d4af37]">Market Central</span>
             </h2>
 
-            <p className="text-gray-700 leading-relaxed text-[16px] md:text-[17px]">
+            <p className="text-gray-700 font-serif leading-relaxed text-[16px] md:text-[17px]">
               Market Central is a fast-growing e-commerce platform that connects
               buyers and sellers in the global marketplace. Founded in 2015, the
               company faced challenges in scaling operations, managing customer
               support, and streamlining back-office tasks.
             </p>
 
-            <p className="text-gray-700 leading-relaxed text-[16px] md:text-[17px]">
+            <p className="text-gray-700 font-serif leading-relaxed text-[16px] md:text-[17px]">
               In 2020, Logicczo came in as a strategic BPO partner to enable
               substantial growth and operational excellence.
             </p>
@@ -98,9 +100,10 @@ export default function Hero2CaseStudy1() {
       <section className="w-full bg-[#f8f9fb] py-16 px-6 md:px-10">
         <div className="max-w-7xl mx-auto text-center">
           <motion.h2
-            initial={{ opacity: 0, y: -20 }}
+            initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
+            transition={{ duration: 0.6, ease: "easeOut" }}
+            viewport={{ once: true }}
             className="text-2xl md:text-3xl font-semibold text-[#1e2a47] mb-10"
           >
             Challenges <span className="text-[#d4af37]">Faced</span>
@@ -112,7 +115,12 @@ export default function Hero2CaseStudy1() {
                 key={index}
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: index * 0.2 }}
+                transition={{
+                  duration: 0.6,
+                  delay: index * 0.2,
+                  ease: "easeOut",
+                }}
+                viewport={{ once: true }}
                 className="bg-white rounded-xl p-6 shadow-md border-t-4 border-[#d4af37] hover:shadow-xl hover:-translate-y-2 transition-all duration-300 ease-in-out"
               >
                 <div className="flex flex-col items-start gap-2 text-left">
@@ -120,7 +128,7 @@ export default function Hero2CaseStudy1() {
                   <h3 className="text-lg font-semibold text-[#1e2a47]">
                     {item.title}
                   </h3>
-                  <p className="text-gray-600 text-[15px]">{item.desc}</p>
+                  <p className="text-gray-600 font-serif text-[15px]">{item.desc}</p>
                 </div>
               </motion.div>
             ))}
@@ -132,9 +140,10 @@ export default function Hero2CaseStudy1() {
       <section className="w-full bg-white py-16 px-6 md:px-10">
         <div className="max-w-7xl mx-auto text-center">
           <motion.h2
-            initial={{ opacity: 0, y: -20 }}
+            initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
+            transition={{ duration: 0.6, ease: "easeOut" }}
+            viewport={{ once: true }}
             className="text-2xl md:text-3xl font-semibold text-[#1e2a47] mb-10"
           >
             How <span className="text-[#d4af37]">Logicczo</span> Helped
@@ -146,13 +155,18 @@ export default function Hero2CaseStudy1() {
                 key={index}
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: index * 0.2 }}
+                transition={{
+                  duration: 0.6,
+                  delay: index * 0.2,
+                  ease: "easeOut",
+                }}
+                viewport={{ once: true }}
                 className="bg-white text-left border-l-4 border-[#d4af37] p-6 rounded-xl shadow-md hover:shadow-lg hover:-translate-y-1 transition-all duration-300"
               >
                 <h3 className="text-lg font-semibold text-[#1e2a47] mb-2">
                   {item.title}
                 </h3>
-                <p className="text-gray-600 text-[15px]">{item.desc}</p>
+                <p className="text-gray-600 font-serif text-[15px]">{item.desc}</p>
               </motion.div>
             ))}
           </div>

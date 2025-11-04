@@ -33,17 +33,17 @@ const AboutHero2: React.FC = () => {
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#17223b] mb-6">
             Logiczo Outsourcing Private Limited
           </h2>
-          <p className="text-gray-700 text-sm sm:text-base leading-relaxed mb-4">
+          <p className="text-gray-700 text-sm font-serif sm:text-base leading-relaxed mb-4">
             Logiczo outsourcing Pvt Ltd was started in November 2022 with the
             mission of becoming an evolution in the sector. It became certain
             that this perception would become a reality when the company mounted
             new heights of success, which began to be reflected in ongoing years.
           </p>
-          <p className="text-gray-700 text-sm sm:text-base leading-relaxed mb-4">
+          <p className="text-gray-700 text-sm font-serif sm:text-base leading-relaxed mb-4">
             We provide a broad portfolio of information technology solutions and
             business process to its clients across the board.
           </p>
-          <p className="text-gray-700 text-sm sm:text-base leading-relaxed mb-4">
+          <p className="text-gray-700 text-sm font-serif sm:text-base leading-relaxed mb-4">
             Our Business Services combines human tap and high technology to haul
             extraordinary customer experiences. While technology forges new and
             agile ways of working, our interaction with experts are committed in
@@ -53,7 +53,7 @@ const AboutHero2: React.FC = () => {
             connection that keeps customers and staff passionate about your
             brand.
           </p>
-          <p className="text-gray-700 text-sm sm:text-base leading-relaxed mb-4">
+          <p className="text-gray-700 font-serif text-sm sm:text-base leading-relaxed mb-4">
             We will support you in making each interaction simpler, faster,
             better, safer, more cost-effective, deliver proven globally leading
             practices.{" "}

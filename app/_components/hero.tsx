@@ -41,7 +41,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.9, delay: 0.3 }}
-          className="mt-6 text-base sm:text-lg md:text-xl lg:text-2xl text-gray-200 leading-relaxed"
+          className="text-lg md:text-2xl text-gray-200 font-serif hover:text-white transition-colors duration-500"
         >
           From customer support to backend operations, our expert teams help you
           scale efficiently, reliably, and cost-effectively.

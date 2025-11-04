@@ -15,7 +15,7 @@ const features = [
     title: 'Efficiency',
     description:
       'Logiczo Outsourcing Pvt Ltd is known for its efficiency in delivering cost-effective business process outsourcing solutions.',
-    imgSrc: '/images/growth2.webp',
+    imgSrc: '/images/growth2.png',
     alt: 'Efficiency Illustration',
     link: '#',
   },
@@ -48,10 +48,11 @@ const GrowthMission: React.FC = () => {
   return (
     <section className="bg-gray-100 py-12 px-6 md:px-16">
       <div className="max-w-7xl mx-auto text-center mb-14">
+        <h3 className="text-[#d4af37] font-semibold uppercase mb-2">OUR MISSION</h3>
         <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4 leading-tight">
           YOUR GROWTH, OUR MISSION
         </h2>
-        <p className="text-gray-700 max-w-3xl mx-auto leading-relaxed text-sm md:text-base">
+        <p className="text-gray-700 max-w-3xl font-serif mx-auto leading-relaxed text-sm md:text-base">
           We are a results-driven BPO & IT services company, helping businesses scale with cost-effective
           outsourcing, staffing, VoIP, and custom development solutions. Partner with us for process excellence
           and operational freedom.
@@ -78,7 +79,7 @@ const GrowthMission: React.FC = () => {
             <h3 className="font-semibold text-gray-900 mb-2 hover:text-[#d4af37] transition-colors duration-300">
               {title}
             </h3>
-            <p className="text-gray-600 text-sm">{description}</p>
+            <p className="text-gray-600 font-serif text-sm">{description}</p>
           </Link>
         ))}
       </div>

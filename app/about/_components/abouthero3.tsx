@@ -121,26 +121,26 @@ export default function AboutHero3() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: i * 0.1 }}
               whileHover={{ scale: 1.05 }}
-              className="flex flex-col items-center text-center p-4 bg-white rounded-2xl shadow-sm hover:shadow-lg transition-all"
+              className="flex flex-col  items-center text-center p-4 bg-white rounded-2xl shadow-sm hover:shadow-lg transition-all"
             >
               <service.icon className="w-10 h-10 text-[#d4af37] mb-4" />
               <h3 className="font-semibold text-[#17223b] mb-2">
                 {service.title}
               </h3>
-              <p className="text-sm text-gray-600">{service.desc}</p>
+              <p className="text-sm text-gray-600 font-serif">{service.desc}</p>
             </motion.div>
           ))}
         </div>
 
         {/* ---------- SECTION 2: Our Vision ---------- */}
         <div className="text-left mb-16">
-          <p className="text-[#d4af37] font-semibold text-sm mb-2">
+          <p className="text-[#d4af37] font-semibold uppercase text-sm mb-2">
             Our Vision
           </p>
           <h3 className="text-2xl md:text-3xl font-bold text-[#17223b] mb-4">
             Making Easy <span className="text-[#d4af37]">Business Growth</span>
           </h3>
-          <p className="text-gray-600 mb-10">
+          <p className="text-gray-600 font-serif mb-10">
             From digital transformation to process excellence, Logiczzo offers:
           </p>
         </div>
@@ -159,7 +159,7 @@ export default function AboutHero3() {
               <h4 className="font-semibold text-[#17223b] mb-2">
                 {service.title}
               </h4>
-              <p className="text-sm text-gray-600">{service.desc}</p>
+              <p className="text-sm font-serif text-gray-600">{service.desc}</p>
             </motion.div>
           ))}
         </div>
@@ -191,13 +191,13 @@ export default function AboutHero3() {
                     <h4 className="font-semibold text-[#17223b]">
                       {item.title}
                     </h4>
-                    <p className="text-sm text-gray-600">{item.desc}</p>
+                    <p className="text-sm font-serif text-gray-600">{item.desc}</p>
                   </div>
                 </motion.div>
               ))}
             </div>
 
-            <p className="text-sm text-gray-700">
+            <p className="text-sm font-serif text-gray-700">
               We believe in{" "}
               <span className="text-[#d4af37] font-semibold">
                 partnership, progress, and performance
@@ -229,6 +229,9 @@ export default function AboutHero3() {
 
       {/* ---------- SECTION 4: Services We Offer ---------- */}
       <div className="flex bg-white flex-col gap-5 items-center py-8 px-4">
+         <p className="text-[#d4af37] font-semibold uppercase text-sm ">
+            Services 
+          </p>
         <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 leading-tight">
           Services We Offer
         </h2>
@@ -255,7 +258,7 @@ export default function AboutHero3() {
               <h3 className="text-3xl font-bold mb-5 select-none text-[#d4af37] drop-shadow-[0_2px_3px_rgba(0,0,0,0.8)]">
                 BPO Consulting
               </h3>
-              <p className="text-md leading-relaxed pt-6 select-none drop-shadow-[0_2px_3px_rgba(0,0,0,0.8)]">
+              <p className="text-md font-serif leading-relaxed pt-6 select-none drop-shadow-[0_2px_3px_rgba(0,0,0,0.8)]">
                 Our company specializes in providing high-quality business
                 process outsourcing services to clients in various industries.
               </p>
@@ -280,7 +283,7 @@ export default function AboutHero3() {
         <h3 className="text-3xl font-bold mb-5 select-none text-[#d4af37] drop-shadow-[0_2px_3px_rgba(0,0,0,0.8)]">
           Contact Center Services
         </h3>
-        <p className="text-md leading-relaxed select-none drop-shadow-[0_2px_3px_rgba(0,0,0,0.8)]">
+        <p className="text-md font-serif leading-relaxed select-none drop-shadow-[0_2px_3px_rgba(0,0,0,0.8)]">
           Logiczo Outsourcing Pvt Ltd is known for its efficiency in delivering
           cost-effective business process outsourcing solutions.
         </p>
@@ -309,7 +312,7 @@ export default function AboutHero3() {
               <h3 className="text-3xl font-bold mb-5 select-none text-[#d4af37] drop-shadow-[0_2px_3px_rgba(0,0,0,0.8)]">
                 Lead Generation
               </h3>
-              <p className="text-md leading-relaxed pt-2 select-none drop-shadow-[0_2px_3px_rgba(0,0,0,0.8)]">
+              <p className="text-md font-serif leading-relaxed pt-2 select-none drop-shadow-[0_2px_3px_rgba(0,0,0,0.8)]">
                 Our BPO company prides itself on being highly flexible and able
                 to adapt to the unique needs and requirements of our clients.
               </p>

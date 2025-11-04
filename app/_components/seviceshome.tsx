@@ -16,10 +16,11 @@ const ServicesHome: React.FC = () => {
 
   return (
     <div className="flex flex-col gap-5 items-center py-8 px-4 ">
+      <h3 className="text-[#d4af37] font-semibold uppercase ">OUR Expertise</h3>
       <h2 className="text-3xl sm:text-4xl font-bold text-gray-900  leading-tight">
         Discover Our Expertise
       </h2>
-      <p className="text-gray-700 max-w-3xl mx-auto mb-4 leading-relaxed text-sm md:text-base">
+      <p className="text-gray-700 font-serif max-w-3xl mx-auto mb-4 leading-relaxed text-sm md:text-base">
         We specialize in delivering top-notch BPO consulting and contact center services designed to
         optimize your business processes and enhance customer experience. Explore the services we offer below.
       </p>
@@ -40,11 +41,11 @@ const ServicesHome: React.FC = () => {
       `}
     >
       <h3 className="text-3xl font-bold mb-5 select-none">BPO Consulting</h3>
-      <p className="text-md leading-relaxed mb-6 select-none">
+      <p className="text-md leading-relaxed font-serif mb-6 select-none">
         Our BPO Consulting service focuses on analyzing and transforming your business processes
         to maximize operational efficiency and reduce costs.
       </p>
-      <ul className="list-disc ml-4 space-y-2 text-sm text-[#d4af37] select-none">
+      <ul className="list-disc ml-4 space-y-2 font-serif text-sm text-[#d4af37] select-none">
         <li>Process assessment and optimization strategies</li>
         <li>Cost reduction through intelligent outsourcing</li>
         <li>Implementation of technology-driven solutions</li>
@@ -69,11 +70,11 @@ const ServicesHome: React.FC = () => {
       <h3 className="text-3xl font-bold mb-5 select-none">
         Contact Center Services
       </h3>
-      <p className="text-md leading-relaxed mb-6 select-none">
+      <p className="text-md leading-relaxed mb-6 font-serif select-none">
         Deliver exceptional customer engagement through our multi-channel contact
         center solutions, tailored to boost satisfaction and loyalty.
       </p>
-      <ul className="list-disc ml-4 space-y-2 text-sm text-[#d4af37] select-none">
+      <ul className="list-disc ml-4 space-y-2 font-serif text-sm text-[#d4af37] select-none">
         <li>Inbound and outbound call management</li>
         <li>Omnichannel support: phone, chat, email, social media</li>
         <li>Quality assurance and agent training programs</li>

@@ -157,7 +157,7 @@ export default function Navbar() {
         </div>
       </div>
 
-      {/* Mobile Menu */}
+      {/* ✅ Mobile Menu */}
       <AnimatePresence>
         {mobileMenuOpen && (
           <motion.div
@@ -196,6 +196,7 @@ export default function Navbar() {
                           <Link
                             key={i}
                             href={drop.href}
+                            onClick={() => setMobileMenuOpen(false)} // ✅ closes menu
                             className="block text-sm text-white/90 hover:text-[#d4af37] transition"
                           >
                             {drop.name}
@@ -209,6 +210,7 @@ export default function Navbar() {
                 <Link
                   key={idx}
                   href={item.href ?? "#"}
+                  onClick={() => setMobileMenuOpen(false)} // ✅ closes menu
                   className="block py-2 text-white hover:text-[#d4af37] transition"
                 >
                   {item.name}

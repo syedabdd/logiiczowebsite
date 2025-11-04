@@ -36,8 +36,8 @@ export default function Hero2BPOConsulting() {
     <section className="flex flex-col md:flex-row items-center justify-between px-6 lg:px-10 xl:px-16 py-10 gap-12 max-w-7xl mx-auto">
       {/* Left Content */}
       <motion.div
-        initial={{ opacity: 0, x: -60 }}
-        whileInView={{ opacity: 1, x: 0 }}
+        initial={{ opacity: 0, y: 40 }}
+        whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
         viewport={{ once: true }}
         className="md:w-1/2 space-y-6"
@@ -48,7 +48,7 @@ export default function Hero2BPOConsulting() {
         <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 leading-tight">
           Smart Outsourcing. Strategic Consulting.
         </h2>
-        <p className="text-gray-600 text-base md:text-lg leading-relaxed">
+        <p className="text-gray-600 font-serif text-base md:text-lg leading-relaxed">
           Business Process Outsourcing is more than a cost-cutting strategy — it's a
           transformation lever. At Logiczo, we empower businesses with flexible,
           scalable solutions tailored to optimize operations and enhance performance.
@@ -69,7 +69,7 @@ export default function Hero2BPOConsulting() {
                 <h3 className="font-semibold text-lg text-gray-900 group-hover:text-orange-600 transition-colors">
                   {feature.title}
                 </h3>
-                <p className="text-gray-600 text-sm md:text-base leading-snug">
+                <p className="text-gray-600 font-serif text-sm md:text-base leading-snug">
                   {feature.description}
                 </p>
               </div>
@@ -80,8 +80,8 @@ export default function Hero2BPOConsulting() {
 
       {/* Right Image */}
       <motion.div
-        initial={{ opacity: 0, x: 80 }}
-        whileInView={{ opacity: 1, x: 0 }}
+        initial={{ opacity: 0, y: 40 }}
+        whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
         viewport={{ once: true }}
         className="relative md:w-1/2 w-full flex justify-center"

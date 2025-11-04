@@ -11,7 +11,7 @@ export default function Hero2() {
   const MotionLink = motion(Link);
 
   return (
-    <section className="w-full bg-[#f2f4f7] py-12 px-4 sm:px-6 lg:px-8">
+    <section className="w-full bg-[#f2f4f7] py-12 px-4 sm:px-6 lg:px-8 overflow-hidden">
       <div className="max-w-7xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-10 items-center">
           {/* Left Section */}
@@ -28,11 +28,11 @@ export default function Hero2() {
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-snug">
               We Provide Best Business Solution in Town
             </h2>
-            <p className="text-gray-700 text-sm sm:text-base leading-relaxed mb-3">
+            <p className="text-gray-700 font-serif text-sm sm:text-base leading-relaxed mb-3">
               We provide a broad portfolio of information technology solutions
               and business process to the clients across the board.
             </p>
-            <p className="text-gray-700 text-sm sm:text-base leading-relaxed mb-6">
+            <p className="text-gray-700 font-serif text-sm sm:text-base leading-relaxed mb-6">
               Our Business Services combines human tap and high technology to
               haul extraordinary customer experiences. While technology forges
               new and agile ways of working, our interaction with experts are
@@ -65,7 +65,7 @@ export default function Hero2() {
                       {item.title}
                     </h4>
                   </div>
-                  <p className="text-xs sm:text-sm text-gray-600 text-center lg:text-left">
+                  <p className="text-xs font-serif sm:text-sm text-gray-600 text-center lg:text-left">
                     {item.desc}
                   </p>
                 </div>
@@ -101,21 +101,38 @@ export default function Hero2() {
                 />
               </div>
 
-              {/* Overlay Small Image */}
-              <div className="absolute top-4 sm:top-6 left-6 sm:left-8 lg:left-6 border-2 sm:border-4 border-[#d4af37] rounded-lg sm:rounded-xl overflow-hidden shadow-lg w-24 sm:w-28 md:w-36 lg:w-40">
+              {/* Animated Overlay Small Image */}
+              <motion.div
+                animate={{ y: [0, -15, 0] }}
+                transition={{
+                  duration: 3,
+                  repeat: Infinity,
+                  ease: "easeInOut",
+                }}
+                className="absolute top-4 sm:top-6 left-6 sm:left-8 lg:left-6 shadow-2xl border-[#17223b] rounded-lg sm:rounded-xl overflow-hidden w-24 sm:w-28 md:w-36 lg:w-40"
+              >
                 <img
                   src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&q=80"
                   alt="Team Discussion"
                   className="w-full h-full object-cover"
                 />
-              </div>
+              </motion.div>
 
-              {/* Bottom Blue Box */}
-              <div className="absolute -bottom-6 sm:-bottom-8 -right-4 sm:-right-6 lg:-right-8 bg-[#17223b] text-white p-3 sm:p-4 lg:p-5 rounded-lg sm:rounded-xl w-44 sm:w-52 md:w-60 shadow-xl">
-                <p className="text-xs sm:text-sm md:text-base font-medium leading-snug text-center lg:text-left">
+              {/* Animated Bottom Box */}
+              <motion.div
+                animate={{ y: [0, 15, 0] }}
+                transition={{
+                  duration: 3,
+                  repeat: Infinity,
+                  ease: "easeInOut",
+                  delay: 0.5,
+                }}
+                className="absolute -bottom-6 sm:-bottom-8 -right-4 sm:-right-6 lg:-right-8 bg-[#17223b] text-white p-3 sm:p-4 lg:p-5 rounded-lg sm:rounded-xl w-44 sm:w-52 md:w-60 shadow-xl"
+              >
+                <p className="text-xs font-serif sm:text-sm md:text-base font-medium leading-snug text-center lg:text-left">
                   Driven by Innovation and Passion for Excellence
                 </p>
-              </div>
+              </motion.div>
             </div>
           </motion.div>
         </div>

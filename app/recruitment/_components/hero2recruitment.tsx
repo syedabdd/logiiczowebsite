@@ -110,7 +110,7 @@ export default function Hero2Recruitment() {
             Communication and Empathy at the{" "}
             <span className="text-[#d4af37]">Core</span>
           </h2>
-          <p className="text-gray-700 leading-relaxed">
+          <p className="text-gray-700 font-serif leading-relaxed">
             At Logicczo, we believe that outstanding customer service relies on
             effective communication and empathy. That’s why we’ve partnered with
             Rubrica Testing, a US-based third-party testing provider, to ensure
@@ -148,7 +148,7 @@ export default function Hero2Recruitment() {
             <h4 className="text-lg font-semibold text-gray-800 mb-2">
               {item.title}
             </h4>
-            <p className="text-gray-600 text-sm leading-relaxed">
+            <p className="text-gray-600 font-serif text-sm leading-relaxed">
               {item.desc}
             </p>
           </motion.div>
@@ -204,7 +204,7 @@ export default function Hero2Recruitment() {
                 <h4 className="text-xl font-semibold text-gray-900 mb-3">
                   {step.title}
                 </h4>
-                <ul className="list-disc list-inside text-gray-700 space-y-1">
+                <ul className="list-disc font-serif list-inside text-gray-700 space-y-1">
                   {step.desc.map((item, i) => (
                     <li key={i}>{item}</li>
                   ))}
@@ -221,7 +221,7 @@ export default function Hero2Recruitment() {
       </div>
 
       {/* SECTION 3 - COMMITMENT */}
-      <div className="mt-32 bg-[#d4af37]/10 p-10 md:p-16 rounded-2xl shadow-md text-center">
+      <div className="mt-10 md:mt-32 bg-[#d4af37]/10 p-6 md:p-16 rounded-2xl shadow-md text-center">
         <motion.h2
           initial={{ opacity: 0, scale: 0.9 }}
           whileInView={{ opacity: 1, scale: 1 }}
@@ -237,7 +237,7 @@ export default function Hero2Recruitment() {
           whileInView={{ opacity: 1 }}
           transition={{ duration: 1, ease: "easeOut" }}
           viewport={{ once: true }}
-          className="text-gray-700 max-w-3xl mx-auto mb-8"
+          className="text-gray-700 font-serif max-w-3xl mx-auto mb-8"
         >
           Our language evaluation process guarantees that our agents possess the
           skills to represent your brand with clarity and professionalism. Choose

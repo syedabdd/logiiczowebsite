@@ -74,7 +74,7 @@ export default function Hero2CaseStudy2() {
             <h2 className="text-2xl md:text-3xl font-semibold text-[#1e2a47]">
               About <span className="text-[#d4af37]">Market Central</span>
             </h2>
-            <p className="text-gray-700 leading-relaxed text-[16px] md:text-[17px]">
+            <p className="text-gray-700 font-serif leading-relaxed text-[16px] md:text-[17px]">
               A telecommunications company based in the United States faced
               numerous challenges in expanding its operations and improving
               customer service. To overcome these obstacles, they partnered with
@@ -119,13 +119,13 @@ export default function Hero2CaseStudy2() {
             <h2 className="text-2xl md:text-3xl font-semibold text-[#1e2a47]">
               Background
             </h2>
-            <p className="text-gray-700 leading-relaxed text-[16px] md:text-[17px]">
+            <p className="text-gray-700 font-serif leading-relaxed text-[16px] md:text-[17px]">
               A telecommunications company with years of experience delivering
               internet, phone, and media services faced growing operational
               challenges:
             </p>
 
-            <ul className="text-gray-700 space-y-3 text-left">
+            <ul className="text-gray-700 font-serif space-y-3 text-left">
               <li>
                 <strong>📞 Customer Service Issues:</strong> Struggled to meet
                 growing support demands, leading to increased complaints and
@@ -152,7 +152,7 @@ export default function Hero2CaseStudy2() {
               <h3 className="text-lg font-semibold text-[#1e2a47] mb-2 flex items-center gap-2">
                 <span>💡</span> The Solution: Logicczo’s BPO Services
               </h3>
-              <p className="text-gray-700 leading-relaxed text-[15px]">
+              <p className="text-gray-700 font-serif leading-relaxed text-[15px]">
                 To overcome these hurdles, the company partnered with Logicczo.
                 Our tailored BPO solutions improved service quality, operational
                 efficiency, and scalability—unlocking new avenues for
@@ -191,7 +191,7 @@ export default function Hero2CaseStudy2() {
                   <h3 className="text-lg font-semibold text-[#1e2a47]">
                     {item.title}
                   </h3>
-                  <p className="text-gray-600 text-[15px]">{item.desc}</p>
+                  <p className="text-gray-600 font-serif text-[15px]">{item.desc}</p>
                 </div>
               </motion.div>
             ))}
@@ -225,7 +225,7 @@ export default function Hero2CaseStudy2() {
                 <h3 className="text-lg font-semibold text-[#1e2a47] mb-2">
                   {item.title}
                 </h3>
-                <p className="text-gray-600 text-[15px]">{item.desc}</p>
+                <p className="text-gray-600 font-serif text-[15px]">{item.desc}</p>
               </motion.div>
             ))}
           </div>

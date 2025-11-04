@@ -37,7 +37,7 @@ export default function Footer() {
             height={60}
             className="mb-4"
           />
-          <p className="text-gray-300 text-sm leading-relaxed">
+          <p className="text-gray-300 font-serif text-sm leading-relaxed">
             Empowering businesses with scalable and cost-effective BPO,
             staffing, and tech solutions. Logiczo delivers
             performance-driven outsourcing.

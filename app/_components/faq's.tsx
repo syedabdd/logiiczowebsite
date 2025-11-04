@@ -92,7 +92,7 @@ export default function FAQ() {
                     transition={{ duration: 0.3, ease: "easeInOut" }}
                     className="px-5 md:px-6 pb-4 md:pb-5 text-gray-700 text-sm md:text-base leading-relaxed bg-gray-50"
                   >
-                    <p>{faq.answer}</p>
+                    <p className="font-serif">{faq.answer}</p>
                   </motion.div>
                 )}
               </AnimatePresence>

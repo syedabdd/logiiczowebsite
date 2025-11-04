@@ -8,7 +8,7 @@ const Hero1contact: React.FC = () => {
   return (
     <section
       className="relative w-full h-screen flex items-center justify-center text-center overflow-hidden bg-cover bg-center"
-      style={{ backgroundImage: "url('/images/hero2img3.jpg')" }} // apni image path yaha
+      style={{ backgroundImage: "url('/images/8.jpg')" }} // apni image path yaha
     >
       {/* Dark overlay for readability */}
       <div className="absolute inset-0 bg-black/50"></div>
@@ -23,7 +23,7 @@ const Hero1contact: React.FC = () => {
         <h1 className="text-5xl md:text-7xl font-bold text-white mb-6  transition-colors duration-500">
           Contact Center <span className="text-[#d4af37]">Services</span>
         </h1>
-        <p className="text-lg md:text-2xl text-gray-200 hover:text-white transition-colors duration-500">
+        <p className="text-lg md:text-2xl text-gray-200 font-serif hover:text-white transition-colors duration-500">
           Smart, scalable outsourcing built around your business.
         </p>
       </motion.div>

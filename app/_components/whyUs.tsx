@@ -45,7 +45,7 @@ export default function WhyUsSection() {
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4 leading-tight">
             Empowering Businesses with Strategic Solutions
           </h2>
-          <p className="text-gray-600 mb-8">
+          <p className="text-gray-600 font-serif mb-8">
             Our mission is to advance your business through expert consulting, efficient processes, and tech-driven solutions that truly deliver results.
           </p>
 
@@ -60,7 +60,7 @@ export default function WhyUsSection() {
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-800">{feature.title}</h4>
-                  <p className="text-sm text-gray-600">{feature.description}</p>
+                  <p className="text-sm text-gray-600 font-serif">{feature.description}</p>
                 </div>
               </div>
             ))}
