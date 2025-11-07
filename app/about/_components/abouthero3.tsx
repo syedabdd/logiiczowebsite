@@ -167,7 +167,7 @@ export default function AboutHero3() {
         {/* ---------- SECTION 3: Our Mission ---------- */}
         <div className="relative bg-[#eaf3ff] rounded-3xl overflow-hidden py-16 px-6 md:px-10 flex flex-col lg:flex-row items-center gap-12">
           <div className="flex-1 z-10">
-            <p className="text-[#17223b] font-semibold text-sm mb-2 uppercase">
+            <p className="text-[#d4af37] font-semibold text-sm mb-2 uppercase">
               Our Mission
             </p>
             <h3 className="text-2xl md:text-3xl font-bold text-[#17223b] mb-6">

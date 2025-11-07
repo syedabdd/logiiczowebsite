@@ -119,7 +119,7 @@ export default function Hero2CaseStudy2() {
             <h2 className="text-2xl md:text-3xl font-semibold text-[#1e2a47]">
               Background
             </h2>
-            <p className="text-gray-700 font-serif leading-relaxed text-[16px] md:text-[17px]">
+            <p className="text-gray-700 font-serif text-left  leading-relaxed text-[16px] md:text-[17px]">
               A telecommunications company with years of experience delivering
               internet, phone, and media services faced growing operational
               challenges:
@@ -149,10 +149,10 @@ export default function Hero2CaseStudy2() {
               viewport={{ once: true }}
               className="bg-white border-l-4 border-[#d4af37] rounded-xl shadow-md p-6 mt-6 hover:shadow-xl transition-all duration-300"
             >
-              <h3 className="text-lg font-semibold text-[#1e2a47] mb-2 flex items-center gap-2">
+              <h3 className="text-lg font-semibold text-left text-[#1e2a47] mb-2 flex items-center gap-2">
                 <span>💡</span> The Solution: Logicczo’s BPO Services
               </h3>
-              <p className="text-gray-700 font-serif leading-relaxed text-[15px]">
+              <p className="text-gray-700 text-left font-serif leading-relaxed text-[15px]">
                 To overcome these hurdles, the company partnered with Logicczo.
                 Our tailored BPO solutions improved service quality, operational
                 efficiency, and scalability—unlocking new avenues for

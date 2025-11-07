@@ -15,7 +15,7 @@ export default function Hero2Technology() {
         className="lg:w-1/2 w-full space-y-4 sm:space-y-5"
       >
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#1a1a1a] mb-2 sm:mb-3 relative inline-block">
-          <h3 className="text-[#d4af37] font-semibold text-sm uppercase mb-3">Telecommunications</h3>
+          <p className="text-[#d4af37] font-semibold text-sm uppercase mb-3">Telecommunications</p>
           Telecommunications
           <span className="absolute bottom-0 left-0 w-14 sm:w-16 h-[3px] bg-[#d4af37] rounded-full"></span>
         </h2>
@@ -56,7 +56,7 @@ export default function Hero2Technology() {
         <motion.div
           whileHover={{ scale: 1.05 }}
           transition={{ type: "spring", stiffness: 200 }}
-          className="rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 w-full sm:w-[90%] md:w-[85%]"
+          className="md:rounded-2xl rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 w-full sm:w-[90%] md:w-[85%]"
         >
           <Image
             src="/images/tele.jpg" // ✅ Replace with your actual image path

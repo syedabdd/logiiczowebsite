@@ -25,9 +25,9 @@ export default function Hero1Technology() {
   ];
 
   return (
-    <section className="w-full bg-[#f9fafb] pt-20 md:pt-28 pb-12 md:pb-16 px-4 sm:px-8 md:px-20">
+    <section className="w-full bg-[#f9fafb] mt-9 md:my-0 pt-20 md:pt-28 pb-12 md:pb-16 px-4 sm:px-8 md:px-20">
       {/* Heading */}
-      <h3 className="text-[#d4af37] text-center font-semibold uppercase mb-2">Technology</h3>
+      <h3 className="text-[#d4af37] text-center font-semibold uppercase mb-1">Technology</h3>
       <motion.h2
         initial={{ opacity: 0, y: -20 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -39,14 +39,14 @@ export default function Hero1Technology() {
       </motion.h2>
 
       {/* Main Content */}
-      <div className="flex flex-col md:flex-row items-center justify-between gap-8 md:gap-10 bg-white rounded-2xl md:rounded-3xl shadow-xl overflow-hidden transition-all duration-500 border border-[#d4af37]/30 hover:shadow-2xl hover:border-[#d4af37]/80">
+      <div className="flex flex-col md:flex-row items-center justify-between gap-1 md:gap-10 bg-white rounded-2xl md:rounded-3xl shadow-xl overflow-hidden transition-all duration-500 border border-[#d4af37]/30 hover:shadow-2xl hover:border-[#d4af37]/80">
         {/* Left Text Section */}
         <motion.div
           initial={{ opacity: 0, x: -60 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
-          className="flex-1 p-6 sm:p-8 md:p-12"
+          className="flex-1 p-4 sm:p-8 md:p-12"
         >
           <h3
             className="text-xl sm:text-2xl md:text-3xl font-bold mb-4 md:mb-5"

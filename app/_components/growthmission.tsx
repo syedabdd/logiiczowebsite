@@ -59,12 +59,11 @@ const GrowthMission: React.FC = () => {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto mb-16">
+      <div className="grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto mb-16">
         {features.map(({ title, description, imgSrc, alt, link }) => (
-          <Link
+          <div
             key={title}
-            href={link}
-            className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 cursor-pointer"
+            className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300"
           >
             <div className="relative w-full h-40 mb-4">
               <Image
@@ -80,7 +79,7 @@ const GrowthMission: React.FC = () => {
               {title}
             </h3>
             <p className="text-gray-600 font-serif text-sm">{description}</p>
-          </Link>
+          </div>
         ))}
       </div>
 

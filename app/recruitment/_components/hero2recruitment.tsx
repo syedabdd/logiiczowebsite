@@ -94,7 +94,7 @@ export default function Hero2Recruitment() {
             alt="Team"
             width={500}
             height={350}
-            className="rounded-2xl shadow-lg hover:scale-105 transition-transform duration-500"
+            className="md:rounded-2xl rounded-lg shadow-lg hover:scale-105 transition-transform duration-500"
           />
         </motion.div>
 

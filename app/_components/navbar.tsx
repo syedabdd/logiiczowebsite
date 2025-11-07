@@ -6,7 +6,6 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, ChevronDown } from "lucide-react";
 import Image from "next/image";
 
-// ✅ Define TypeScript types
 interface DropdownItem {
   name: string;
   href: string;
@@ -19,22 +18,27 @@ interface NavItem {
 }
 
 export default function Navbar() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState<boolean>(false);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
-  const [isScrolled, setIsScrolled] = useState<boolean>(false);
+  const [isScrolled, setIsScrolled] = useState(false);
+  const [mounted, setMounted] = useState(false);
+
+  // ✅ Prevent hydration mismatch
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   useEffect(() => {
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 20);
-    };
+    const handleScroll = () => setIsScrolled(window.scrollY > 20);
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  // ✅ Type-safe toggleDropdown function
   const toggleDropdown = (menu: string) => {
     setOpenDropdown(openDropdown === menu ? null : menu);
   };
+
+  if (!mounted) return null; // ✅ Avoid SSR mismatch
 
   const navItems: NavItem[] = [
     { name: "Home", href: "/" },
@@ -88,6 +92,7 @@ export default function Navbar() {
                 width={120}
                 alt="Logiczo"
                 className="cursor-pointer"
+                priority
               />
             </motion.div>
           </Link>
@@ -102,7 +107,10 @@ export default function Navbar() {
                   onMouseEnter={() => setOpenDropdown(item.name)}
                   onMouseLeave={() => setOpenDropdown(null)}
                 >
-                  <button className="flex items-center gap-1 hover:text-[#d4af37] transition cursor-pointer">
+                  <button
+                    type="button"
+                    className="flex items-center gap-1 hover:text-[#d4af37] transition cursor-pointer"
+                  >
                     {item.name}
                     <ChevronDown
                       size={16}
@@ -149,6 +157,7 @@ export default function Navbar() {
 
           {/* Mobile Toggle */}
           <button
+            type="button"
             className="md:hidden text-[#d4af37]"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           >
@@ -171,6 +180,7 @@ export default function Navbar() {
               item.dropdown ? (
                 <div key={idx} className="py-2">
                   <button
+                    type="button"
                     onClick={() => toggleDropdown(item.name)}
                     className="flex justify-between w-full text-left text-white hover:text-[#d4af37] transition"
                   >
@@ -196,7 +206,7 @@ export default function Navbar() {
                           <Link
                             key={i}
                             href={drop.href}
-                            onClick={() => setMobileMenuOpen(false)} // ✅ closes menu
+                            onClick={() => setMobileMenuOpen(false)}
                             className="block text-sm text-white/90 hover:text-[#d4af37] transition"
                           >
                             {drop.name}
@@ -210,7 +220,7 @@ export default function Navbar() {
                 <Link
                   key={idx}
                   href={item.href ?? "#"}
-                  onClick={() => setMobileMenuOpen(false)} // ✅ closes menu
+                  onClick={() => setMobileMenuOpen(false)}
                   className="block py-2 text-white hover:text-[#d4af37] transition"
                 >
                   {item.name}
