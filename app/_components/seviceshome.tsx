@@ -16,7 +16,7 @@ const ServicesHome: React.FC = () => {
 
   return (
     <div className="flex flex-col gap-5 items-center py-8 px-4 ">
-      <h3 className="text-[#d4af37] font-semibold uppercase ">OUR Expertise</h3>
+      <h3 className="text-[#00bf63] font-semibold uppercase ">OUR Expertise</h3>
       <h2 className="text-3xl sm:text-4xl font-bold text-gray-900  leading-tight">
         Discover Our Expertise
       </h2>
@@ -36,7 +36,7 @@ const ServicesHome: React.FC = () => {
           animate ? "opacity-100 scale-100" : "opacity-0 scale-90"
         }
         hover:scale-[1.05] hover:shadow-[0_0_20px_rgba(212,175,55,0.7)] hover:-translate-y-2
-        focus:outline-none focus:ring-4 focus:ring-[#d4af37]/60
+        focus:outline-none focus:ring-4 focus:ring-[#7ed957]/60
         flex flex-col justify-between
       `}
     >
@@ -45,7 +45,7 @@ const ServicesHome: React.FC = () => {
         Our BPO Consulting service focuses on analyzing and transforming your business processes
         to maximize operational efficiency and reduce costs.
       </p>
-      <ul className="list-disc ml-4 space-y-2 font-serif text-sm text-[#d4af37] select-none">
+      <ul className="list-disc ml-4 space-y-2 font-serif text-sm text-[#7ed957] select-none">
         <li>Process assessment and optimization strategies</li>
         <li>Cost reduction through intelligent outsourcing</li>
         <li>Implementation of technology-driven solutions</li>
@@ -63,7 +63,7 @@ const ServicesHome: React.FC = () => {
           animate ? "opacity-100 scale-100" : "opacity-0 scale-90"
         }
         hover:scale-[1.05] hover:shadow-[0_0_20px_rgba(212,175,55,0.7)] hover:-translate-y-2
-        focus:outline-none focus:ring-4 focus:ring-[#d4af37]/60
+        focus:outline-none focus:ring-4 focus:ring-[#7ed957]/60
         flex flex-col justify-between
       `}
     >
@@ -74,7 +74,7 @@ const ServicesHome: React.FC = () => {
         Deliver exceptional customer engagement through our multi-channel contact
         center solutions, tailored to boost satisfaction and loyalty.
       </p>
-      <ul className="list-disc ml-4 space-y-2 font-serif text-sm text-[#d4af37] select-none">
+      <ul className="list-disc ml-4 space-y-2 font-serif text-sm text-[#7ed957] select-none">
         <li>Inbound and outbound call management</li>
         <li>Omnichannel support: phone, chat, email, social media</li>
         <li>Quality assurance and agent training programs</li>

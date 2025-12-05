@@ -38,7 +38,7 @@ export default function Hero2Contact() {
   ];
 
   return (
-    <section className="w-full px-5 py-14 md:py-20 bg-white overflow-hidden">
+    <section className="w-full px-5 py-14 md:pb-20 md:pt-10 bg-white overflow-hidden">
       <div className="max-w-7xl mx-auto text-center">
         <motion.h2
           initial={{ opacity: 0, y: 40 }}
@@ -68,7 +68,7 @@ export default function Hero2Contact() {
                 scale: 1.05,
                 boxShadow: "0 15px 30px rgba(0,0,0,0.1)",
               }}
-              className="group bg-white rounded-2xl border-2 shadow-md border-gray-100 overflow-hidden cursor-pointer transform transition-all duration-500 hover:border-[#d4af37]/70"
+              className="group bg-white rounded-2xl border-2 shadow-md border-gray-100 overflow-hidden cursor-pointer transform transition-all duration-500 hover:border-[#00bf63]/70"
             >
               <div className="relative w-full h-56 md:h-60 overflow-hidden">
                 <Image
@@ -81,7 +81,7 @@ export default function Hero2Contact() {
               </div>
 
               <div className="p-6 text-left">
-                <h3 className="text-lg md:text-xl font-semibold text-gray-900 group-hover:text-[#d4af37] transition-colors duration-300">
+                <h3 className="text-lg md:text-xl font-semibold text-gray-900 group-hover:text-[#7ed957] transition-colors duration-300">
                   {service.title}
                 </h3>
                 <p className="text-gray-600 font-serif text-sm md:text-base mt-3 leading-relaxed">
@@ -89,7 +89,7 @@ export default function Hero2Contact() {
                 </p>
 
                 <motion.div
-                  className="w-10 h-[3px] bg-[#d4af37] mt-4 rounded-full group-hover:w-16 transition-all duration-500"
+                  className="w-10 h-[3px] bg-[#00bf63] mt-4 rounded-full group-hover:w-16 transition-all duration-500"
                 />
               </div>
             </motion.div>

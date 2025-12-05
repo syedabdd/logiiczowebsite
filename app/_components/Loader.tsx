@@ -14,7 +14,7 @@ export default function Loader() {
       <motion.div
         animate={{ rotate: 360 }}
         transition={{ duration: 1, repeat: Infinity, ease: "linear" }}
-        className="w-6 h-6 border-2 border-[#d4af37] border-t-transparent rounded-full"
+        className="w-6 h-6 border-2 border-[#7ed957] border-t-transparent rounded-full"
       />
     </motion.div>
   );

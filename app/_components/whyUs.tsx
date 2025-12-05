@@ -41,7 +41,7 @@ export default function WhyUsSection() {
 
         {/* Right Side - Content */}
         <div>
-          <h3 className="text-[#d4af37] font-semibold uppercase mb-2">Why Choose Us</h3>
+          <h3 className="text-[#00bf63] font-semibold uppercase mb-2">Why Choose Us</h3>
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4 leading-tight">
             Empowering Businesses with Strategic Solutions
           </h2>
@@ -55,7 +55,7 @@ export default function WhyUsSection() {
                 key={idx}
                 className="flex items-start gap-4 p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition"
               >
-                <div className="bg-[#d4af37] text-white rounded-full p-3">
+                <div className="bg-[#7ed957] text-black rounded-full p-3">
                   {feature.icon}
                 </div>
                 <div>

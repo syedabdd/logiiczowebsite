@@ -22,7 +22,7 @@ export default function Hero3BpoConsulting() {
     <>
       {/* What We Offer Section */}
       <section className="bg-gray-100 py-20 px-6 md:px-10">
-        <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-center gap-10 md:gap-20">
+        <div className="max-w-7xl mx-auto flex flex-col-reverse  md:flex-row items-center justify-center gap-10 md:gap-20">
           {/* Image Section */}
           <motion.div
             initial={{ opacity: 0, y: 50 }}
@@ -63,9 +63,9 @@ export default function Hero3BpoConsulting() {
                   transition={{ duration: 0.5, delay: index * 0.1 }}
                   viewport={{ once: true }}
                   whileHover={{ scale: 1.03 }}
-                  className="flex items-start gap-3 group rounded-xl py-4 px-0 md:px-4 transition-all duration-300 hover:bg-[#d4af37]/10"
+                  className="flex items-start gap-3 group rounded-xl py-4 px-0 md:px-4 transition-all duration-300 hover:bg-[#7ed957]/10"
                 >
-                  <CheckCircle2 className="text-[#d4af37] w-6 h-6 flex-shrink-0 group-hover:text-[#d4af37]" />
+                  <CheckCircle2 className="text-[#7ed957] w-6 h-6 flex-shrink-0 group-hover:text-[#7ed957]" />
                   <p className="text-gray-700 font-serif text-lg group-hover:text-[#0a2540] transition-colors duration-300">
                     {offer}
                   </p>
@@ -99,7 +99,7 @@ export default function Hero3BpoConsulting() {
                 viewport={{ once: true }}
                 className="flex items-center gap-3"
               >
-                <CheckCircle2 className="text-[#d4af37] w-6 h-6 flex-shrink-0" />
+                <CheckCircle2 className="text-[#7ed957] w-6 h-6 flex-shrink-0" />
                 <span className="text-gray-700 font-serif text-lg font-medium">
                   {benefit}
                 </span>

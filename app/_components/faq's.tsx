@@ -53,7 +53,7 @@ export default function FAQ() {
           transition={{ duration: 0.6, ease: "easeOut" }}
           className="text-4xl text-center md:text-5xl font-bold mb-12 text-gray-900"
         >
-          FAQ’<span className="text-[#d4af37]">s</span>
+          FAQ’<span className="text-[#7ed957]">s</span>
         </motion.h2>
 
         <div className="space-y-4">
@@ -62,17 +62,19 @@ export default function FAQ() {
               key={index}
               layout
               transition={{ duration: 0.4, ease: "easeInOut" }}
-              className="border border-gray-200 rounded-2xl shadow-sm bg-white hover:shadow-2xl hover:border-[#d4af37]/60 transition-all duration-500 overflow-hidden"
+              className="border border-gray-200 rounded-2xl shadow-sm bg-white 
+              hover:shadow-2xl hover:border-[#00bf63]/60 transition-all duration-500 overflow-hidden"
             >
               <button
                 onClick={() => toggleFAQ(index)}
-                className="w-full flex justify-between items-center text-left px-5 md:px-6 py-4 md:py-5 text-base md:text-lg font-semibold text-gray-900 hover:text-[#d4af37] transition-all duration-300"
+                className="w-full flex justify-between items-center text-left px-5 md:px-6 py-4 md:py-5 
+                text-base md:text-lg font-semibold text-gray-900 hover:text-[#00bf63] transition-all duration-300"
               >
                 {faq.question}
                 <motion.span
                   animate={{ rotate: activeIndex === index ? 180 : 0 }}
                   transition={{ duration: 0.3 }}
-                  className="ml-4 text-[#d4af37]"
+                  className="ml-4 text-[#7ed957]"
                 >
                   {activeIndex === index ? (
                     <Minus size={22} />

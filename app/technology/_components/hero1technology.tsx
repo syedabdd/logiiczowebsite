@@ -7,19 +7,19 @@ import { ShieldCheck, Globe, Users, BadgeCheck } from "lucide-react";
 export default function Hero1Technology() {
   const benefits = [
     {
-      icon: <ShieldCheck className="w-9 h-9 md:w-10 md:h-10 text-[#d4af37]" />,
+      icon: <ShieldCheck className="w-9 h-9 md:w-10 md:h-10 text-[#7ed957]" />,
       title: "Reduce operating costs",
     },
     {
-      icon: <Globe className="w-9 h-9 md:w-10 md:h-10 text-[#d4af37]" />,
+      icon: <Globe className="w-9 h-9 md:w-10 md:h-10 text-[#7ed957]" />,
       title: "Improve efficiency and productivity",
     },
     {
-      icon: <Users className="w-9 h-9 md:w-10 md:h-10 text-[#d4af37]" />,
+      icon: <Users className="w-9 h-9 md:w-10 md:h-10 text-[#7ed957]" />,
       title: "Enhance customer service",
     },
     {
-      icon: <BadgeCheck className="w-9 h-9 md:w-10 md:h-10 text-[#d4af37]" />,
+      icon: <BadgeCheck className="w-9 h-9 md:w-10 md:h-10 text-[#7ed957]" />,
       title: "Increase revenue",
     },
   ];
@@ -27,7 +27,7 @@ export default function Hero1Technology() {
   return (
     <section className="w-full bg-[#f9fafb] mt-9 md:my-0 pt-20 md:pt-28 pb-12 md:pb-16 px-4 sm:px-8 md:px-20">
       {/* Heading */}
-      <h3 className="text-[#d4af37] text-center font-semibold uppercase mb-1">Technology</h3>
+      <h3 className="text-[#00bf63] text-center font-semibold uppercase mb-1">Technology</h3>
       <motion.h2
         initial={{ opacity: 0, y: -20 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -39,7 +39,7 @@ export default function Hero1Technology() {
       </motion.h2>
 
       {/* Main Content */}
-      <div className="flex flex-col md:flex-row items-center justify-between gap-1 md:gap-10 bg-white rounded-2xl md:rounded-3xl shadow-xl overflow-hidden transition-all duration-500 border border-[#d4af37]/30 hover:shadow-2xl hover:border-[#d4af37]/80">
+      <div className="flex flex-col md:flex-row items-center justify-between gap-1 md:gap-10 bg-white rounded-2xl md:rounded-3xl shadow-xl overflow-hidden transition-all duration-500 border border-[#7ed957]/30 hover:shadow-2xl hover:border-[#7ed957]/80">
         {/* Left Text Section */}
         <motion.div
           initial={{ opacity: 0, x: -60 }}
@@ -50,7 +50,7 @@ export default function Hero1Technology() {
         >
           <h3
             className="text-xl sm:text-2xl md:text-3xl font-bold mb-4 md:mb-5"
-            style={{ color: "#d4af37" }}
+            style={{ color: "#7ed957" }}
           >
             Network Infrastructure:
           </h3>
@@ -112,7 +112,7 @@ export default function Hero1Technology() {
         transition={{ duration: 0.7, delay: 0.4 }}
         viewport={{ once: true }}
         className="text-center font-bold mt-4 md:mt-6 text-base sm:text-lg md:text-xl"
-        style={{ color: "#d4af37" }}
+        style={{ color: "#7ed957" }}
       >
         Our BPO and consulting services can help your business:
       </motion.p>
@@ -124,7 +124,7 @@ export default function Hero1Technology() {
         transition={{ duration: 0.8 }}
         viewport={{ once: true }}
         className="h-1 mx-auto mt-3 md:mt-4 rounded-full"
-        style={{ backgroundColor: "#d4af37" }}
+        style={{ backgroundColor: "#00bf63" }}
       />
 
       {/* Benefit Cards */}

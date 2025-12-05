@@ -72,7 +72,7 @@ export default function Hero2CaseStudy2() {
             className="w-full md:w-1/2 space-y-5 text-center md:text-left"
           >
             <h2 className="text-2xl md:text-3xl font-semibold text-[#1e2a47]">
-              About <span className="text-[#d4af37]">Market Central</span>
+              About <span className="text-[#7ed957]">Market Central</span>
             </h2>
             <p className="text-gray-700 font-serif leading-relaxed text-[16px] md:text-[17px]">
               A telecommunications company based in the United States faced
@@ -87,7 +87,7 @@ export default function Hero2CaseStudy2() {
       </section>
 
       {/* BACKGROUND SECTION */}
-      <section className="w-full bg-[#f9fafc] py-16 px-6 md:px-10">
+      <section className="w-full bg-[#f9fafc] pt-16 pb-4 px-6 md:px-10">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-center gap-10">
           {/* Left Image */}
           <motion.div
@@ -147,7 +147,7 @@ export default function Hero2CaseStudy2() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7 }}
               viewport={{ once: true }}
-              className="bg-white border-l-4 border-[#d4af37] rounded-xl shadow-md p-6 mt-6 hover:shadow-xl transition-all duration-300"
+              className="bg-white border-l-4 border-[#00bf63] rounded-xl shadow-md p-6 mt-6 hover:shadow-xl transition-all duration-300"
             >
               <h3 className="text-lg font-semibold text-left text-[#1e2a47] mb-2 flex items-center gap-2">
                 <span>💡</span> The Solution: Logicczo’s BPO Services
@@ -173,7 +173,7 @@ export default function Hero2CaseStudy2() {
             viewport={{ once: true }}
             className="text-2xl md:text-3xl font-semibold text-[#1e2a47] mb-10"
           >
-            Challenges <span className="text-[#d4af37]">Faced</span>
+            Challenges <span className="text-[#7ed957]">Faced</span>
           </motion.h2>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 justify-center">
@@ -184,10 +184,10 @@ export default function Hero2CaseStudy2() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: index * 0.2 }}
                 viewport={{ once: true }}
-                className="bg-white rounded-xl p-6 shadow-md border-t-4 border-[#d4af37] hover:shadow-xl hover:-translate-y-2 transition-all duration-300 ease-in-out"
+                className="bg-white rounded-xl p-6 shadow-md border-t-4 border-[#00bf63] hover:shadow-xl hover:-translate-y-2 transition-all duration-300 ease-in-out"
               >
                 <div className="flex flex-col items-start gap-2 text-left">
-                  <CheckCircle2 className="text-[#d4af37] w-6 h-6" />
+                  <CheckCircle2 className="text-[#7ed957] w-6 h-6" />
                   <h3 className="text-lg font-semibold text-[#1e2a47]">
                     {item.title}
                   </h3>
@@ -209,7 +209,7 @@ export default function Hero2CaseStudy2() {
             viewport={{ once: true }}
             className="text-2xl md:text-3xl font-semibold text-[#1e2a47] mb-10"
           >
-            How <span className="text-[#d4af37]">Logicczo</span> Helped
+            How <span className="text-[#7ed957]">Logicczo</span> Helped
           </motion.h2>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 justify-center">
@@ -220,7 +220,7 @@ export default function Hero2CaseStudy2() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: index * 0.2 }}
                 viewport={{ once: true }}
-                className="bg-white text-left border-l-4 border-[#d4af37] p-6 rounded-xl shadow-md hover:shadow-lg hover:-translate-y-1 transition-all duration-300"
+                className="bg-white text-left border-l-4 border-[#00bf63] p-6 rounded-xl shadow-md hover:shadow-lg hover:-translate-y-1 transition-all duration-300"
               >
                 <h3 className="text-lg font-semibold text-[#1e2a47] mb-2">
                   {item.title}

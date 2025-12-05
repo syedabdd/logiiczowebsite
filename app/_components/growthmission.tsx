@@ -14,7 +14,7 @@ const features = [
   {
     title: 'Efficiency',
     description:
-      'Logiczo Outsourcing Pvt Ltd is known for its efficiency in delivering cost-effective business process outsourcing solutions.',
+      'Efficient Tech is known for its efficiency in delivering cost-effective business process outsourcing solutions.',
     imgSrc: '/images/growth2.png',
     alt: 'Efficiency Illustration',
     link: '#',
@@ -48,7 +48,7 @@ const GrowthMission: React.FC = () => {
   return (
     <section className="bg-gray-100 py-12 px-6 md:px-16">
       <div className="max-w-7xl mx-auto text-center mb-14">
-        <h3 className="text-[#d4af37] font-semibold uppercase mb-2">OUR MISSION</h3>
+        <h3 className="text-[#00bf63] font-semibold uppercase mb-2">OUR MISSION</h3>
         <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4 leading-tight">
           YOUR GROWTH, OUR MISSION
         </h2>
@@ -86,7 +86,7 @@ const GrowthMission: React.FC = () => {
       <div className="max-w-7xl mx-auto grid grid-cols-2 sm:grid-cols-4 gap-6 text-center">
         {stats.map(({ value, label }) => (
           <div key={label} className="text-gray-900">
-            <p className="text-3xl font-bold text-[#d4af37]">{value}</p>
+            <p className="text-3xl font-bold text-[#00bf63]">{value}</p>
             <p className="text-sm font-semibold">{label}</p>
           </div>
         ))}

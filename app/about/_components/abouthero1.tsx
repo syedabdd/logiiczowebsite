@@ -21,7 +21,7 @@ const AboutHero1: React.FC = () => {
         className="relative z-10 max-w-4xl px-4"
       >
         <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 transition-colors duration-500">
-          About <span className="text-[#d4af37]">Logiczo</span> 
+          About <span className="text-[#7ed957]">Logiczo</span> 
         </h1>
         <p className="text-lg md:text-2xl text-gray-200 font-serif hover:text-white transition-colors duration-500">
           Leading the way in BPO excellence since 2010

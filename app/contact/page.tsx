@@ -34,30 +34,30 @@ export default function ContactPage() {
           {/* Content */}
           <div className="relative z-10">
             <h2 className="text-4xl md:text-5xl font-extrabold mb-6">
-              Get in <span className="text-[#d4af37]">Touch</span>
+              Get in <span className="text-[#7ed957]">Touch</span>
             </h2>
             <p className="text-gray-300 font-serif text-lg mb-10 leading-relaxed">
               We’d love to hear from you! Whether you have a project idea, a
               question, or just want to say hi — reach out to{" "}
-              <span className="font-semibold text-white">Logiczo</span>.
+              <span className="font-semibold text-white">Efficient</span>.
             </p>
 
             <div className="space-y-5">
               <div className="flex items-center gap-3 group cursor-pointer transition-all">
-                <Mail size={24} className="group-hover:text-[#d4af37]" />
-                <span className="group-hover:text-[#d4af37] transition-colors">
-                  contact@logiczo.com
+                <Mail size={24} className="group-hover:text-[#7ed957]" />
+                <span className="group-hover:text-[#7ed957] transition-colors">
+                  efficienttech@gmail.com
                 </span>
               </div>
               <div className="flex items-center gap-3 group cursor-pointer transition-all">
-                <Phone size={24} className="group-hover:text-[#d4af37]" />
-                <span className="group-hover:text-[#d4af37] transition-colors">
+                <Phone size={24} className="group-hover:text-[#7ed957]" />
+                <span className="group-hover:text-[#7ed957] transition-colors">
                   +91 98765 43210
                 </span>
               </div>
               <div className="flex items-center gap-3 group cursor-pointer transition-all">
-                <MapPin size={24} className="group-hover:text-[#d4af37]" />
-                <span className="group-hover:text-[#d4af37] transition-colors">
+                <MapPin size={24} className="group-hover:text-[#7ed957]" />
+                <span className="group-hover:text-[#7ed957] transition-colors">
                   Mumbai, India
                 </span>
               </div>
@@ -73,7 +73,7 @@ export default function ContactPage() {
           className="md:w-1/2 md:p-10 p-6 flex flex-col justify-center"
         >
           <h3 className="text-3xl font-bold text-gray-800 mb-8">
-            Contact <span className="text-[#d4af37]">Logiczo</span>
+            Contact <span className="text-[#7ed957]">Efficient</span>
           </h3>
 
           <form className="space-y-6">
@@ -84,7 +84,7 @@ export default function ContactPage() {
               <input
                 type="text"
                 placeholder="Enter your full name"
-                className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:border-[#d4af37] focus:ring-2 focus:ring-[#d4af37]/50 outline-none transition-all"
+                className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:border-[#7ed957] focus:ring-2 focus:ring-[#7ed957]/50 outline-none transition-all"
               />
             </div>
 
@@ -95,7 +95,7 @@ export default function ContactPage() {
               <input
                 type="email"
                 placeholder="Enter your email"
-                className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:border-[#d4af37] focus:ring-2 focus:ring-[#d4af37]/50 outline-none transition-all"
+                className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:border-[#7ed957] focus:ring-2 focus:ring-[#7ed957]/50 outline-none transition-all"
               />
             </div>
 
@@ -106,7 +106,7 @@ export default function ContactPage() {
               <textarea
                 placeholder="Write your message here..."
                 rows={5}
-                className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:border-[#d4af37] focus:ring-2 focus:ring-[#d4af37]/50 outline-none transition-all"
+                className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:border-[#7ed957] focus:ring-2 focus:ring-[#7ed957]/50 outline-none transition-all"
               ></textarea>
             </div>
 
@@ -114,7 +114,7 @@ export default function ContactPage() {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.97 }}
               transition={{ duration: 0.2 }}
-              className="w-full bg-[#d4af37] text-white py-3 rounded-xl font-semibold flex items-center justify-center gap-2 hover:bg-[#c5a026] hover:text-white transition-all duration-300 shadow-md"
+              className="w-full bg-[#7ed957] text-white py-3 rounded-xl font-semibold flex items-center justify-center gap-2 hover:bg-[#00bf63] hover:text-white transition-all duration-300 shadow-md"
             >
               Send Message
               <Send size={20} />

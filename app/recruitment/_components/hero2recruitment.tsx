@@ -13,17 +13,17 @@ import {
 export default function Hero2Recruitment() {
   const processes = [
     {
-      icon: <ClipboardList className="w-10 h-10 text-[#d4af37]" />,
+      icon: <ClipboardList className="w-10 h-10 text-[#7ed957]" />,
       title: "Pre-Hire Assessment",
       desc: "Learn more about how Logicczo ensures linguistic excellence in every customer interaction.",
     },
     {
-      icon: <GraduationCap className="w-10 h-10 text-[#d4af37]" />,
+      icon: <GraduationCap className="w-10 h-10 text-[#7ed957]" />,
       title: "Training & Development",
       desc: "Learn more about how Logicczo ensures linguistic excellence in every customer interaction.",
     },
     {
-      icon: <CheckCircle2 className="w-10 h-10 text-[#d4af37]" />,
+      icon: <CheckCircle2 className="w-10 h-10 text-[#7ed957]" />,
       title: "Quality Assurance Checks",
       desc: "Learn more about how Logicczo ensures linguistic excellence in every customer interaction.",
     },
@@ -31,7 +31,7 @@ export default function Hero2Recruitment() {
 
   const steps = [
     {
-      icon: <ClipboardList className="w-10 h-10 text-[#d4af37]" />,
+      icon: <ClipboardList className="w-10 h-10 text-[#7ed957]" />,
       title: "Pre-Hire Language Assessment",
       desc: [
         "Voice agents: Listening & Speaking assessments",
@@ -43,7 +43,7 @@ export default function Hero2Recruitment() {
         "B2 Level: Interact fluently and understand complex texts, including technical discussions.",
     },
     {
-      icon: <GraduationCap className="w-10 h-10 text-[#d4af37]" />,
+      icon: <GraduationCap className="w-10 h-10 text-[#7ed957]" />,
       title: "Training & Development",
       desc: [
         "Focused language training & immersive workshops",
@@ -52,7 +52,7 @@ export default function Hero2Recruitment() {
       ],
     },
     {
-      icon: <CheckCircle2 className="w-10 h-10 text-[#d4af37]" />,
+      icon: <CheckCircle2 className="w-10 h-10 text-[#7ed957]" />,
       title: "Quality Assurance & Feedback",
       desc: [
         "Live call monitoring by QA teams",
@@ -60,7 +60,7 @@ export default function Hero2Recruitment() {
       ],
     },
     {
-      icon: <Users2 className="w-10 h-10 text-[#d4af37]" />,
+      icon: <Users2 className="w-10 h-10 text-[#7ed957]" />,
       title: "Customer Insights",
       desc: [
         "Customer feedback analyzed to refine training",
@@ -68,7 +68,7 @@ export default function Hero2Recruitment() {
       ],
     },
     {
-      icon: <Award className="w-10 h-10 text-[#d4af37]" />,
+      icon: <Award className="w-10 h-10 text-[#7ed957]" />,
       title: "Language Proficiency Certifications",
       desc: [
         "Top-performing agents receive official certifications",
@@ -108,7 +108,7 @@ export default function Hero2Recruitment() {
         >
           <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
             Communication and Empathy at the{" "}
-            <span className="text-[#d4af37]">Core</span>
+            <span className="text-[#7ed957]">Core</span>
           </h2>
           <p className="text-gray-700 font-serif leading-relaxed">
             At Logicczo, we believe that outstanding customer service relies on
@@ -130,7 +130,7 @@ export default function Hero2Recruitment() {
         viewport={{ once: true }}
         className="text-center text-2xl md:text-3xl font-semibold text-gray-900 mb-10"
       >
-        Language Testing Process <span className="text-[#d4af37]">Overview</span>
+        Language Testing Process <span className="text-[#7ed957]">Overview</span>
       </motion.h3>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -142,7 +142,7 @@ export default function Hero2Recruitment() {
             transition={{ duration: 0.6, delay: i * 0.2, ease: "easeOut" }}
             viewport={{ once: true }}
             whileHover={{ y: -10, scale: 1.03 }}
-            className="bg-white p-8 rounded-2xl shadow-md hover:shadow-xl text-center border-t-4 border-[#d4af37] hover:bg-[#fffaf0] transition-all duration-500"
+            className="bg-white p-8 rounded-2xl shadow-md hover:shadow-xl text-center border-t-4 border-[#00bf63] hover:bg-[#7ed9571f] transition-all duration-500"
           >
             <div className="flex justify-center mb-4">{item.icon}</div>
             <h4 className="text-lg font-semibold text-gray-800 mb-2">
@@ -164,12 +164,12 @@ export default function Hero2Recruitment() {
           viewport={{ once: true }}
           className="text-center text-3xl md:text-4xl font-bold text-gray-900 mb-16"
         >
-          Language Excellence <span className="text-[#d4af37]">Journey</span>
+          Language Excellence <span className="text-[#7ed957]">Journey</span>
         </motion.h2>
 
         <div className="relative max-w-5xl mx-auto">
           {/* Timeline Line */}
-          <div className="absolute left-5 md:left-1/2 transform md:-translate-x-1/2 w-1 h-full bg-[#d4af37]/30 rounded-full"></div>
+          <div className="absolute left-5 md:left-1/2 transform md:-translate-x-1/2 w-1 h-full bg-[#7ed957]/30 rounded-full"></div>
 
           {steps.map((step, index) => (
             <motion.div
@@ -183,7 +183,7 @@ export default function Hero2Recruitment() {
               }`}
             >
               {/* Connector Dot */}
-              <div className="absolute left-5 md:left-1/2 transform md:-translate-x-1/2 bg-[#d4af37] w-5 h-5 rounded-full shadow-lg"></div>
+              <div className="absolute left-5 md:left-1/2 transform md:-translate-x-1/2 bg-[#7ed957] w-5 h-5 rounded-full shadow-lg"></div>
 
               {/* Icon */}
               <div
@@ -193,14 +193,14 @@ export default function Hero2Recruitment() {
               >
                 <motion.div
                   whileHover={{ scale: 1.1, rotate: 5 }}
-                  className="bg-white shadow-md rounded-full p-4 border border-[#d4af37]/50"
+                  className="bg-white shadow-md rounded-full p-4 border border-[#7ed957]/50"
                 >
                   {step.icon}
                 </motion.div>
               </div>
 
               {/* Card */}
-              <div className="md:w-1/2 bg-white p-6 rounded-2xl shadow-md border-l-4 border-[#d4af37] hover:shadow-xl transition-all duration-500">
+              <div className="md:w-1/2 bg-white p-6 rounded-2xl shadow-md border-l-4 border-[#7ed957] hover:shadow-xl transition-all duration-500">
                 <h4 className="text-xl font-semibold text-gray-900 mb-3">
                   {step.title}
                 </h4>
@@ -210,7 +210,7 @@ export default function Hero2Recruitment() {
                   ))}
                 </ul>
                 {step.highlight && (
-                  <div className="bg-yellow-100 mt-4 text-sm p-3 rounded-md font-medium">
+                  <div className="bg-green-100 mt-4 text-sm p-3 rounded-md font-medium">
                     <span className="font-bold">{step.highlight}</span>
                   </div>
                 )}
@@ -221,7 +221,7 @@ export default function Hero2Recruitment() {
       </div>
 
       {/* SECTION 3 - COMMITMENT */}
-      <div className="mt-10 md:mt-32 bg-[#d4af37]/10 p-6 md:p-16 rounded-2xl shadow-md text-center">
+      <div className="mt-10 md:mt-32 bg-[#7ed957]/10 p-6 md:p-16 rounded-2xl shadow-md text-center">
         <motion.h2
           initial={{ opacity: 0, scale: 0.9 }}
           whileInView={{ opacity: 1, scale: 1 }}
@@ -230,7 +230,7 @@ export default function Hero2Recruitment() {
           className="text-2xl md:text-3xl font-bold text-gray-900 mb-4"
         >
           A Commitment to{" "}
-          <span className="text-[#d4af37]">World-Class Communication</span>
+          <span className="text-[#7ed957]">World-Class Communication</span>
         </motion.h2>
         <motion.p
           initial={{ opacity: 0 }}
@@ -246,7 +246,7 @@ export default function Hero2Recruitment() {
         <motion.button
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
-          className="bg-[#d4af37] hover:bg-[#b89b2f] text-white font-semibold py-3 px-8 rounded-full shadow-lg transition-all duration-300"
+          className="bg-[#7ed957] hover:bg-[#7ed957] text-white font-semibold py-3 px-8 rounded-full shadow-lg transition-all duration-300"
         >
           Partner With Us
         </motion.button>

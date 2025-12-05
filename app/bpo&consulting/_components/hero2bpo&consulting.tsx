@@ -42,7 +42,7 @@ export default function Hero2BPOConsulting() {
         viewport={{ once: true }}
         className="md:w-1/2 space-y-6"
       >
-        <p className="text-[#d4af37] font-semibold uppercase tracking-wide">
+        <p className="text-[#00bf63] font-semibold uppercase tracking-wide">
           BPO Consulting
         </p>
         <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 leading-tight">
@@ -50,7 +50,7 @@ export default function Hero2BPOConsulting() {
         </h2>
         <p className="text-gray-600 font-serif text-base md:text-lg leading-relaxed">
           Business Process Outsourcing is more than a cost-cutting strategy — it's a
-          transformation lever. At Logiczo, we empower businesses with flexible,
+          transformation lever. At Efficient Tech, we empower businesses with flexible,
           scalable solutions tailored to optimize operations and enhance performance.
         </p>
 
@@ -62,7 +62,7 @@ export default function Hero2BPOConsulting() {
               transition={{ type: "spring", stiffness: 200 }}
               className="flex items-start gap-4 group cursor-pointer"
             >
-              <div className="bg-[#d4af37] p-3 rounded-full shadow-md group-hover:bg-orange-600 transition-all duration-300">
+              <div className="bg-[#7ed957] p-3 rounded-full shadow-md group-hover:bg-orange-600 transition-all duration-300">
                 {feature.icon}
               </div>
               <div>
@@ -86,7 +86,7 @@ export default function Hero2BPOConsulting() {
         viewport={{ once: true }}
         className="relative md:w-1/2 w-full flex justify-center"
       >
-        <div className="relative p-3 bg-[#d4af37] rounded-2xl -rotate-3 md:-rotate-6 overflow-hidden shadow-2xl hover:rotate-0 transition-transform duration-500">
+        <div className="relative p-3 bg-[#7ed957] rounded-2xl -rotate-3 md:-rotate-6 overflow-hidden shadow-2xl hover:rotate-0 transition-transform duration-500">
           <div className="rotate-3 md:rotate-0">
             <Image
               src="/images/b11-5IpsECIx.webp"

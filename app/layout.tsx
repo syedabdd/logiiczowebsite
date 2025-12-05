@@ -16,8 +16,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Logiczo | Business Solutions",
-  description: "Logiczo offers innovative business and consulting solutions.",
+  title: "Efiicient | Tech",
+  description: "Efficient offers innovative business and consulting solutions.",
 };
 
 export default function RootLayout({

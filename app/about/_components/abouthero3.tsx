@@ -123,7 +123,7 @@ export default function AboutHero3() {
               whileHover={{ scale: 1.05 }}
               className="flex flex-col  items-center text-center p-4 bg-white rounded-2xl shadow-sm hover:shadow-lg transition-all"
             >
-              <service.icon className="w-10 h-10 text-[#d4af37] mb-4" />
+              <service.icon className="w-10 h-10 text-[#7ed957] mb-4" />
               <h3 className="font-semibold text-[#17223b] mb-2">
                 {service.title}
               </h3>
@@ -134,11 +134,11 @@ export default function AboutHero3() {
 
         {/* ---------- SECTION 2: Our Vision ---------- */}
         <div className="text-left mb-16">
-          <p className="text-[#d4af37] font-semibold uppercase text-sm mb-2">
+          <p className="text-[#00bf63] font-semibold uppercase text-sm mb-2">
             Our Vision
           </p>
           <h3 className="text-2xl md:text-3xl font-bold text-[#17223b] mb-4">
-            Making Easy <span className="text-[#d4af37]">Business Growth</span>
+            Making Easy <span className="text-[#7ed957]">Business Growth</span>
           </h3>
           <p className="text-gray-600 font-serif mb-10">
             From digital transformation to process excellence, Logiczzo offers:
@@ -153,9 +153,9 @@ export default function AboutHero3() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: i * 0.1 }}
               whileHover={{ scale: 1.05 }}
-              className="p-6 bg-white rounded-2xl shadow-sm hover:shadow-lg transition-all border-t-4 border-[#d4af37]"
+              className="p-6 bg-white rounded-2xl shadow-sm hover:shadow-lg transition-all border-t-4 border-[#00bf63]"
             >
-              <service.icon className="w-8 h-8 text-[#d4af37] mb-4" />
+              <service.icon className="w-8 h-8 text-[#7ed957] mb-4" />
               <h4 className="font-semibold text-[#17223b] mb-2">
                 {service.title}
               </h4>
@@ -167,7 +167,7 @@ export default function AboutHero3() {
         {/* ---------- SECTION 3: Our Mission ---------- */}
         <div className="relative bg-[#eaf3ff] rounded-3xl overflow-hidden py-16 px-6 md:px-10 flex flex-col lg:flex-row items-center gap-12">
           <div className="flex-1 z-10">
-            <p className="text-[#d4af37] font-semibold text-sm mb-2 uppercase">
+            <p className="text-[#00bf63] font-semibold text-sm mb-2 uppercase">
               Our Mission
             </p>
             <h3 className="text-2xl md:text-3xl font-bold text-[#17223b] mb-6">
@@ -185,7 +185,7 @@ export default function AboutHero3() {
                   className="flex items-start gap-3"
                 >
                   <div className="bg-white rounded-full p-2 shadow-md">
-                    <item.icon className="w-5 h-5 text-[#d4af37]" />
+                    <item.icon className="w-5 h-5 text-[#7ed957]" />
                   </div>
                   <div>
                     <h4 className="font-semibold text-[#17223b]">
@@ -199,7 +199,7 @@ export default function AboutHero3() {
 
             <p className="text-sm font-serif text-gray-700">
               We believe in{" "}
-              <span className="text-[#d4af37] font-semibold">
+              <span className="text-[#00bf63] font-semibold">
                 partnership, progress, and performance
               </span>{" "}
               to transform your vision into success.
@@ -229,7 +229,7 @@ export default function AboutHero3() {
 
       {/* ---------- SECTION 4: Services We Offer ---------- */}
       <div className="flex bg-white flex-col gap-5 items-center py-8 px-4">
-         <p className="text-[#d4af37] font-semibold uppercase text-sm ">
+         <p className="text-[#00bf63] font-semibold uppercase text-sm ">
             Services 
           </p>
         <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 leading-tight">
@@ -255,7 +255,7 @@ export default function AboutHero3() {
             <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/50 to-transparent z-0"></div>
 
             <div className="relative z-10">
-              <h3 className="text-3xl font-bold mb-5 select-none text-[#d4af37] drop-shadow-[0_2px_3px_rgba(0,0,0,0.8)]">
+              <h3 className="text-3xl font-bold mb-5 select-none text-[#7ed957] drop-shadow-[0_2px_3px_rgba(0,0,0,0.8)]">
                 BPO Consulting
               </h3>
               <p className="text-md font-serif leading-relaxed pt-6 select-none drop-shadow-[0_2px_3px_rgba(0,0,0,0.8)]">
@@ -280,11 +280,11 @@ export default function AboutHero3() {
       <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/50 to-transparent z-0"></div>
 
       <div className="relative z-10">
-        <h3 className="text-3xl font-bold mb-5 select-none text-[#d4af37] drop-shadow-[0_2px_3px_rgba(0,0,0,0.8)]">
+        <h3 className="text-3xl font-bold mb-5 select-none text-[#00bf63] drop-shadow-[0_2px_3px_rgba(0,0,0,0.8)]">
           Contact Center Services
         </h3>
         <p className="text-md font-serif leading-relaxed select-none drop-shadow-[0_2px_3px_rgba(0,0,0,0.8)]">
-          Logiczo Outsourcing Pvt Ltd is known for its efficiency in delivering
+          Efficient Tech Pvt Ltd is known for its efficiency in delivering
           cost-effective business process outsourcing solutions.
         </p>
       </div>
@@ -309,7 +309,7 @@ export default function AboutHero3() {
             <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/50 to-transparent z-0"></div>
 
             <div className="relative z-10">
-              <h3 className="text-3xl font-bold mb-5 select-none text-[#d4af37] drop-shadow-[0_2px_3px_rgba(0,0,0,0.8)]">
+              <h3 className="text-3xl font-bold mb-5 select-none text-[#7ed957] drop-shadow-[0_2px_3px_rgba(0,0,0,0.8)]">
                 Lead Generation
               </h3>
               <p className="text-md font-serif leading-relaxed pt-2 select-none drop-shadow-[0_2px_3px_rgba(0,0,0,0.8)]">
