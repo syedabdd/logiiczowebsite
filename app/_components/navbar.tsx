@@ -173,7 +173,7 @@ export default function Navbar() {
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
             transition={{ duration: 0.3 }}
-            className="md:hidden bg-black px-6 pb-4 border-t border-[#00bf63]/30"
+            className="md:hidden bg-[#17223b] px-6 pb-4 border-t border-[#00bf63]/30"
           >
             {navItems.map((item, idx) =>
               item.dropdown ? (

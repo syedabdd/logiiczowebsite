@@ -126,7 +126,7 @@ export default function Hero2() {
                   ease: "easeInOut",
                   delay: 0.5,
                 }}
-                className="absolute -bottom-6 sm:-bottom-8 -right-4 sm:-right-6 lg:-right-8  p-4 rounded-xl w-44 sm:w-52 md:w-60 
+                className="absolute -bottom-6 sm:-bottom-8 -right-2 sm:-right-6 lg:-right-8  p-4 rounded-xl w-44 sm:w-52 md:w-60 
                 shadow-xl transition-all duration-300 bg-[#7ed957] text-[#171616]"
               >
                 <p className="text-xs sm:text-sm md:text-base font-medium leading-snug text-center lg:text-left font-serif">
