@@ -78,8 +78,8 @@ export default function Hero2CaseStudy2() {
               A telecommunications company based in the United States faced
               numerous challenges in expanding its operations and improving
               customer service. To overcome these obstacles, they partnered with
-              <strong> Logicczo</strong>, a renowned business process outsourcing
-              (BPO) provider. This case study explores how Logicczo’s services
+              <strong> Efficient Tech</strong>, a renowned business process outsourcing
+              (BPO) provider. This case study explores how Efficient Tech services
               played a pivotal role in their growth and success.
             </p>
           </motion.div>
@@ -150,10 +150,10 @@ export default function Hero2CaseStudy2() {
               className="bg-white border-l-4 border-[#00bf63] rounded-xl shadow-md p-6 mt-6 hover:shadow-xl transition-all duration-300"
             >
               <h3 className="text-lg font-semibold text-left text-[#1e2a47] mb-2 flex items-center gap-2">
-                <span>💡</span> The Solution: Logicczo’s BPO Services
+                <span>💡</span> The Solution: Efficient Tech BPO Services
               </h3>
               <p className="text-gray-700 text-left font-serif leading-relaxed text-[15px]">
-                To overcome these hurdles, the company partnered with Logicczo.
+                To overcome these hurdles, the company partnered with Efficient Tech.
                 Our tailored BPO solutions improved service quality, operational
                 efficiency, and scalability—unlocking new avenues for
                 sustainable growth.
@@ -199,7 +199,7 @@ export default function Hero2CaseStudy2() {
         </div>
       </section>
 
-      {/* HOW LOGICCZO HELPED SECTION */}
+      {/* HOW Efficient Tech HELPED SECTION */}
       <section className="w-full bg-white py-16 px-6 md:px-10">
         <div className="max-w-7xl mx-auto text-center">
           <motion.h2
@@ -209,7 +209,7 @@ export default function Hero2CaseStudy2() {
             viewport={{ once: true }}
             className="text-2xl md:text-3xl font-semibold text-[#1e2a47] mb-10"
           >
-            How <span className="text-[#7ed957]">Logicczo</span> Helped
+            How <span className="text-[#7ed957]">Efficient Tech</span> Helped
           </motion.h2>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 justify-center">

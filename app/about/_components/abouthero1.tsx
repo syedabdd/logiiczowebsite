@@ -21,7 +21,7 @@ const AboutHero1: React.FC = () => {
         className="relative z-10 max-w-4xl px-4"
       >
         <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 transition-colors duration-500">
-          About <span className="text-[#7ed957]">Logiczo</span> 
+          About <span className="text-[#7ed957]">Efficient Tech</span> 
         </h1>
         <p className="text-lg md:text-2xl text-gray-200 font-serif hover:text-white transition-colors duration-500">
           Leading the way in BPO excellence since 2010
@@ -30,12 +30,12 @@ const AboutHero1: React.FC = () => {
 
       {/* Optional background shapes */}
       <motion.div
-        className="absolute top-0 left-0 w-48 h-48 bg-[#d4af37]/20 rounded-full blur-3xl animate-pulse"
+        className="absolute top-0 left-0 w-48 h-48 bg-[#7ed957]/20 rounded-full blur-3xl animate-pulse"
         animate={{ scale: [1, 1.2, 1] }}
         transition={{ repeat: Infinity, duration: 5 }}
       />
       <motion.div
-        className="absolute bottom-0 right-0 w-72 h-72 bg-[#d4af37]/10 rounded-full blur-3xl animate-pulse"
+        className="absolute bottom-0 right-0 w-72 h-72 bg-[#7ed957]/10 rounded-full blur-3xl animate-pulse"
         animate={{ scale: [1, 1.1, 1] }}
         transition={{ repeat: Infinity, duration: 7 }}
       />

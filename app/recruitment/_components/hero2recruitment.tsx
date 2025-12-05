@@ -15,17 +15,17 @@ export default function Hero2Recruitment() {
     {
       icon: <ClipboardList className="w-10 h-10 text-[#7ed957]" />,
       title: "Pre-Hire Assessment",
-      desc: "Learn more about how Logicczo ensures linguistic excellence in every customer interaction.",
+      desc: "Learn more about how Efficient Tech ensures linguistic excellence in every customer interaction.",
     },
     {
       icon: <GraduationCap className="w-10 h-10 text-[#7ed957]" />,
       title: "Training & Development",
-      desc: "Learn more about how Logicczo ensures linguistic excellence in every customer interaction.",
+      desc: "Learn more about how Efficient Tech ensures linguistic excellence in every customer interaction.",
     },
     {
       icon: <CheckCircle2 className="w-10 h-10 text-[#7ed957]" />,
       title: "Quality Assurance Checks",
-      desc: "Learn more about how Logicczo ensures linguistic excellence in every customer interaction.",
+      desc: "Learn more about how Efficient Tech ensures linguistic excellence in every customer interaction.",
     },
   ];
 
@@ -111,7 +111,7 @@ export default function Hero2Recruitment() {
             <span className="text-[#7ed957]">Core</span>
           </h2>
           <p className="text-gray-700 font-serif leading-relaxed">
-            At Logicczo, we believe that outstanding customer service relies on
+            At Efficient Tech, we believe that outstanding customer service relies on
             effective communication and empathy. That’s why we’ve partnered with
             Rubrica Testing, a US-based third-party testing provider, to ensure
             our agents speak the language of service excellence.
@@ -241,7 +241,7 @@ export default function Hero2Recruitment() {
         >
           Our language evaluation process guarantees that our agents possess the
           skills to represent your brand with clarity and professionalism. Choose
-          Logicczo as your partner in exceptional customer service.
+          Efficient Tech as your partner in exceptional customer service.
         </motion.p>
         <motion.button
           whileHover={{ scale: 1.05 }}

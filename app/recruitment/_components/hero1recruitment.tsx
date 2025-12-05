@@ -24,7 +24,7 @@ const Hero1recruitment: React.FC = () => {
           Language Proficiency <span className="text-[#7ed957]">That Powers Exceptional </span>Customer Service
         </h1>
         <p className="text-lg md:text-2xl font-serif text-gray-200 hover:text-white transition-colors duration-500">
-          At Logicczo, we ensure communication excellence through rigorous testing and training.
+          At Efficient Tech, we ensure communication excellence through rigorous testing and training.
         </p>
       </motion.div>
 

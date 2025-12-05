@@ -13,14 +13,14 @@ export default function FAQ() {
 
   const faqs: FAQItem[] = [
     {
-      question: "What are the advantages of working with Logicczo?",
+      question: "What are the advantages of working with Efficient Tech?",
       answer:
         "We have been involved in marketing campaigns for many types of businesses. Our principals have shown us every type of campaign and we are able to use their experience to maximize your chances of success. Call centers must be able to handle sporadic or seasonal call volume. Otherwise, the company would need to hire more agents. Flexibility in how calls are handled allows a company to respond quickly and efficiently to customer needs.",
     },
     {
       question: "What is call center outsourcing?",
       answer:
-        "In business, outsourcing is the process of transferring certain tasks or services to another party. Call center outsourcing is the practice of hiring a third party to effectively handle your customer support, sales, lead generation or back office processing. In fact, you can outsource to an agency which is close to home or halfway around the world. Logicczo is a company that specializes in being a third party service provider.",
+        "In business, outsourcing is the process of transferring certain tasks or services to another party. Call center outsourcing is the practice of hiring a third party to effectively handle your customer support, sales, lead generation or back office processing. In fact, you can outsource to an agency which is close to home or halfway around the world. Efficient Tech is a company that specializes in being a third party service provider.",
     },
     {
       question: "How to reduce call center costs?",

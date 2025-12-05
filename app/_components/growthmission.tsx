@@ -75,7 +75,7 @@ const GrowthMission: React.FC = () => {
                 priority
               />
             </div>
-            <h3 className="font-semibold text-gray-900 mb-2 hover:text-[#d4af37] transition-colors duration-300">
+            <h3 className="font-semibold text-gray-900 mb-2 hover:text-[#7ed957] transition-colors duration-300">
               {title}
             </h3>
             <p className="text-gray-600 font-serif text-sm">{description}</p>

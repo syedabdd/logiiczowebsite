@@ -21,7 +21,7 @@ export default function Hero2Technology() {
         </h2>
 
         <p className="text-gray-700 font-serif text-sm sm:text-base leading-relaxed">
-          Logicczo makes use of the state-of-the-art VoIP infrastructure that
+          Efficient Tech makes use of the state-of-the-art VoIP infrastructure that
           combines flexibility with cost competitiveness. We have adopted the
           full VoIP solution ahead of the most in the contact center industry
           because we believe that by staying ahead of our competitors, we will

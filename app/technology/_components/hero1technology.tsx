@@ -62,7 +62,7 @@ export default function Hero1Technology() {
             connectivity.
           </p>
           <p className="text-gray-700 text-sm font-serif sm:text-base leading-relaxed">
-            logicczo is utilizing software-based PaBX / Dialler system from
+            Efficient Tech is utilizing software-based PaBX / Dialler system from
             Asterisk. The software is built on an open architecture, Windows
             2003 Server and Microsoft SQL Server platform, and state-of-the-art
             Dialogic SCSA telephony components. Asterisk provides robust

@@ -83,7 +83,7 @@ export default function Hero2CaseStudy1() {
             </p>
 
             <p className="text-gray-700 font-serif leading-relaxed text-[16px] md:text-[17px]">
-              In 2020, Logicczo came in as a strategic BPO partner to enable
+              In 2020, Efficient Tech came in as a strategic BPO partner to enable
               substantial growth and operational excellence.
             </p>
 
@@ -136,7 +136,7 @@ export default function Hero2CaseStudy1() {
         </div>
       </section>
 
-      {/* How Logicczo Helped Section */}
+      {/* How Efficient Tech Helped Section */}
       <section className="w-full bg-white py-16 px-6 md:px-10">
         <div className="max-w-7xl mx-auto text-center">
           <motion.h2
@@ -146,7 +146,7 @@ export default function Hero2CaseStudy1() {
             viewport={{ once: true }}
             className="text-2xl md:text-3xl font-semibold text-[#1e2a47] mb-10"
           >
-            How <span className="text-[#7ed957]">Logicczo</span> Helped
+            How <span className="text-[#7ed957]">Efficient Tech</span> Helped
           </motion.h2>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 justify-center">
