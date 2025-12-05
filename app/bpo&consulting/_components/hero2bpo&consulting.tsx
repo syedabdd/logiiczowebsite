@@ -45,13 +45,17 @@ export default function Hero2BPOConsulting() {
         <p className="text-[#00bf63] font-semibold uppercase tracking-wide">
           BPO Consulting
         </p>
+
         <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 leading-tight">
           Smart Outsourcing. Strategic Consulting.
         </h2>
+
+        {/* FIXED LINE WITH APOSTROPHE */}
         <p className="text-gray-600 font-serif text-base md:text-lg leading-relaxed">
-          Business Process Outsourcing is more than a cost-cutting strategy — it's a
-          transformation lever. At Efficient Tech, we empower businesses with flexible,
-          scalable solutions tailored to optimize operations and enhance performance.
+          Business Process Outsourcing is more than a cost-cutting strategy —
+          it&rsquo;s a transformation lever. At Efficient Tech, we empower
+          businesses with flexible, scalable solutions tailored to optimize
+          operations and enhance performance.
         </p>
 
         <div className="space-y-6">
@@ -65,10 +69,12 @@ export default function Hero2BPOConsulting() {
               <div className="bg-[#7ed957] p-3 rounded-full shadow-md group-hover:bg-orange-600 transition-all duration-300">
                 {feature.icon}
               </div>
+
               <div>
                 <h3 className="font-semibold text-lg text-gray-900 group-hover:text-orange-600 transition-colors">
                   {feature.title}
                 </h3>
+
                 <p className="text-gray-600 font-serif text-sm md:text-base leading-snug">
                   {feature.description}
                 </p>
