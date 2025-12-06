@@ -141,7 +141,7 @@ export default function AboutHero3() {
             Making Easy <span className="text-[#7ed957]">Business Growth</span>
           </h3>
           <p className="text-gray-600 font-serif mb-10">
-            From digital transformation to process excellence, Logiczzo offers:
+            From digital transformation to process excellence, Efficient Tech offers:
           </p>
         </div>
 
