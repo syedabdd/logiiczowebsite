@@ -23,8 +23,7 @@ export default function ContactPage() {
           <div
             className="absolute inset-0 bg-cover bg-center"
             style={{
-              backgroundImage:
-                "url('/images/ContactUsForm.jpg')",
+              backgroundImage: "url('/images/ContactUsForm.jpg')",
             }}
           ></div>
 
