@@ -10,7 +10,7 @@ export default function Careers() {
     {
       title: "Frontend Developer",
       type: "Full-Time",
-      location: "Mumbai, India",
+      location: "Pune, India",
       desc: "We’re looking for a creative developer skilled in React.js and Tailwind CSS to build elegant user interfaces.",
     },
     {

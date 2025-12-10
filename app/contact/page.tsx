@@ -57,7 +57,7 @@ export default function ContactPage() {
               <div className="flex items-center gap-3 group cursor-pointer transition-all">
                 <MapPin size={24} className="group-hover:text-[#7ed957]" />
                 <span className="group-hover:text-[#7ed957] transition-colors">
-                  Mumbai, India
+                  Pune, India
                 </span>
               </div>
             </div>

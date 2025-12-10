@@ -1,7 +1,6 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { MessageCircle } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
@@ -20,43 +19,59 @@ const footerLinks = {
   ],
 };
 
-const WHATSAPP_NUMBER = "917030746860";
-const WHATSAPP_MESSAGE = encodeURIComponent(
-  "Hello Efficient Tech Team, I want to know more about your services."
-);
+const RECEIVER_EMAIL = "info@efficienttech.com";
 
 export default function Footer() {
   const [year, setYear] = useState<number | null>(null);
+
+  const [formData, setFormData] = useState({
+    name: "",
+    message: "",
+  });
 
   useEffect(() => {
     setYear(new Date().getFullYear());
   }, []);
 
+  const handleMailSend = () => {
+    const subject = `New message from ${formData.name}`;
+    const body = formData.message;
+
+    const mailtoLink = `mailto:${RECEIVER_EMAIL}?subject=${encodeURIComponent(
+      subject
+    )}&body=${encodeURIComponent(body)}`;
+
+    window.location.href = mailtoLink;
+  };
+
   return (
     <footer className="bg-[#17223b] text-white">
-      <div className="container mx-auto px-6 py-12 grid gap-10 md:grid-cols-4">
-        
-        {/* Logo and Description */}
+      <div className="container mx-auto px-6 py-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+
+        {/* Logo + Description */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
+          className="flex flex-col items-start"
         >
-          <Image
-            src="/images/bgre.png"
-            alt="Efficient Logo"
-            width={350}
-            height={0}        // Auto height
-            sizes="100vw"
-            className=""
-            priority
-          />
+          <div className="w-full max-w-[220px] sm:max-w-[260px]">
+            <Image
+              src="/images/bgre.png"
+              alt="Efficient Logo"
+              width={350}
+              height={0}
+              sizes="100vw"
+              priority
+              className="w-full h-auto object-contain"
+            />
+          </div>
 
-          <p className="text-gray-300 font-serif text-sm leading-relaxed mt-2">
+          <p className="text-gray-300 font-serif text-sm leading-relaxed mt-3 sm:mt-4">
             Empowering businesses with scalable and cost-effective BPO,
-            staffing, and tech solutions. Efficient delivers
-            performance-driven outsourcing.
+            staffing, and tech solutions. Efficient delivers performance-driven
+            outsourcing.
           </p>
         </motion.div>
 
@@ -75,7 +90,7 @@ export default function Footer() {
               <li key={link.name}>
                 <Link
                   href={link.href}
-                  className="text-gray-300 hover:text-[#00bf63] transition-colors duration-200"
+                  className="text-gray-300 hover:text-[#00bf63] transition duration-200"
                 >
                   {link.name}
                 </Link>
@@ -99,7 +114,7 @@ export default function Footer() {
               <li key={link.name}>
                 <Link
                   href={link.href}
-                  className="text-gray-300 hover:text-[#7ed957] transition-colors duration-200"
+                  className="text-gray-300 hover:text-[#7ed957] transition duration-200"
                 >
                   {link.name}
                 </Link>
@@ -108,7 +123,7 @@ export default function Footer() {
           </ul>
         </motion.div>
 
-        {/* Connect With Us */}
+        {/* Contact Section */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -119,29 +134,61 @@ export default function Footer() {
             Connect With Us
           </h3>
 
-          <p className="text-gray-300 text-sm mb-3">
-            Contact us on WhatsApp for quick assistance
-          </p>
-
+          {/* Email */}
           <a
-            href={`https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`}
-            target="_blank"
-            className="flex items-center gap-2 bg-[#00bf63] text-[#17223b] font-semibold px-4 py-2 rounded-full shadow-lg hover:bg-[#029d52] transition"
+            href={`mailto:${RECEIVER_EMAIL}`}
+            className="block text-gray-300 hover:text-[#00bf63] text-sm transition mb-2"
           >
-            <MessageCircle className="w-5 h-5" />
-            Chat on WhatsApp
+            ✉️ {RECEIVER_EMAIL}
           </a>
 
-          <p className="text-gray-400 text-sm mt-4">Pune, Maharashtra, India</p>
+          {/* Location */}
+          <p className="text-gray-400 text-sm mb-4">
+            Pune, Maharashtra, India
+          </p>
+
+          {/* Contact Form */}
+          {/* <div className="space-y-3 bg-[#1c2a48] p-4 rounded-lg border border-gray-700 shadow-md">
+            <input
+              type="text"
+              placeholder="Your Name"
+              value={formData.name}
+              onChange={(e) =>
+                setFormData({ ...formData, name: e.target.value })
+              }
+              className="w-full p-2 rounded bg-[#0f1628] border border-gray-600 text-white text-sm focus:ring-2 focus:ring-[#00bf63] outline-none"
+            />
+
+            <textarea
+              placeholder="Your Message"
+              rows={3}
+              value={formData.message}
+              onChange={(e) =>
+                setFormData({ ...formData, message: e.target.value })
+              }
+              className="w-full p-2 rounded bg-[#0f1628] border border-gray-600 text-white text-sm focus:ring-2 focus:ring-[#00bf63] outline-none"
+            />
+
+            <button
+              onClick={handleMailSend}
+              className="w-full bg-[#7ed957] text-[#17223b] font-semibold py-2 rounded-full hover:bg-[#00bf63] transition"
+            >
+              Send Message
+            </button>
+          </div> */}
         </motion.div>
       </div>
 
+      {/* Footer Bottom */}
       <div className="border-t border-gray-700 py-4 text-center text-sm text-gray-400">
-        © {year ? year : "----"} Efficient Tech All rights reserved.
+        © {year ? year : "----"} Efficient Tech. All rights reserved.
       </div>
 
-      {/* Contact Button */}
-      <motion.div whileHover={{ scale: 1.05 }} className="fixed bottom-6 right-6">
+      {/* Floating Contact Button */}
+      <motion.div
+        whileHover={{ scale: 1.05 }}
+        className="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 z-50"
+      >
         <Link
           href="/contact"
           className="bg-[#7ed957] text-[#17223b] font-semibold px-5 py-2 rounded-full shadow-lg hover:bg-[#00bf63] transition"
