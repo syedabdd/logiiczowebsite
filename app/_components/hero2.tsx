@@ -23,8 +23,8 @@ export default function Hero2() {
             viewport={{ once: true }}
             className="text-center lg:text-left"
           >
-            <p className="text-[#7ed957] font-semibold uppercase tracking-wide text-xs sm:text-sm mb-3">
-              More About Us
+            <p className="text-[#00bf63] font-semibold uppercase tracking-wide text-xs sm:text-sm mb-3">
+              About Us
             </p>
 
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-snug">

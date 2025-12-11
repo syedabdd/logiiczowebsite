@@ -78,7 +78,7 @@ export default function Hero() {
           </button>
 
           <button className="group px-8 sm:px-10 py-3 sm:py-4 rounded-full border-2 border-[#00bf63] text-[#7ed957] font-bold text-base md:text-lg relative overflow-hidden transition-all duration-300 hover:scale-105">
-            <span className="relative z-10 group-hover:text-[#17223b] transition-colors duration-300">
+            <span className="relative z-10 group-hover:text-[#00bf63] transition-colors duration-300">
               Explore Services
             </span>
             <motion.div
@@ -87,9 +87,7 @@ export default function Hero() {
               whileHover={{ scale: 1, opacity: 1 }}
               transition={{ duration: 0.4 }}
             />
-            <span className="relative z-10 group-hover:text-[#17223b] transition-colors duration-300">
-              Explore Services
-            </span>
+           
           </button>
         </motion.div>
 
