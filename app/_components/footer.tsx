@@ -19,7 +19,7 @@ const footerLinks = {
   ],
 };
 
-const RECEIVER_EMAIL = "info@efficienttech.com";
+const RECEIVER_EMAIL = "efficientstech@gmail.com";
 
 export default function Footer() {
   const [year, setYear] = useState<number | null>(null);

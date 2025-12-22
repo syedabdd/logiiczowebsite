@@ -168,7 +168,7 @@ export default function Hero2Recruitment() {
         </motion.h2>
 
         <div className="relative max-w-5xl mx-auto">
-          {/* Timeline Line */}
+         
           <div className="absolute left-5 md:left-1/2 transform md:-translate-x-1/2 w-1 h-full bg-[#7ed957]/30 rounded-full"></div>
 
           {steps.map((step, index) => (
@@ -182,10 +182,10 @@ export default function Hero2Recruitment() {
                 index % 2 === 0 ? "md:flex-row-reverse" : ""
               }`}
             >
-              {/* Connector Dot */}
+              
               <div className="absolute left-5 md:left-1/2 transform md:-translate-x-1/2 bg-[#7ed957] w-5 h-5 rounded-full shadow-lg"></div>
 
-              {/* Icon */}
+
               <div
                 className={`md:w-1/2 flex ${
                   index % 2 === 0 ? "md:justify-end" : "md:justify-start"
@@ -199,7 +199,7 @@ export default function Hero2Recruitment() {
                 </motion.div>
               </div>
 
-              {/* Card */}
+
               <div className="md:w-1/2 bg-white p-6 rounded-2xl shadow-md border-l-4 border-[#7ed957] hover:shadow-xl transition-all duration-500">
                 <h4 className="text-xl font-semibold text-gray-900 mb-3">
                   {step.title}
