@@ -86,11 +86,11 @@ export default function Navbar() {
               transition={{ type: "spring", stiffness: 300 }}
             >
               <Image
-                src={"/images/logoET5re.png"}
+                src={"/images/bgre6.png"}
                 height={0}
-                width={290}
+                width={250}
                 alt="Efficient Tech"
-                className=" pt-6"
+                className=""
                 priority
               />
             </motion.div>

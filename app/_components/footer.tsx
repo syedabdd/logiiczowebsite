@@ -58,7 +58,7 @@ export default function Footer() {
         >
           <div className="w-full max-w-[220px] sm:max-w-[260px]">
             <Image
-              src="/images/bgre.png"
+              src="/images/bgre6.png"
               alt="Efficient Logo"
               width={350}
               height={0}
