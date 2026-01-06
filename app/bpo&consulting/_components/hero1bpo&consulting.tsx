@@ -8,7 +8,7 @@ const Hero1bpoconsulting: React.FC = () => {
   return (
     <section
       className="relative w-full h-screen flex items-center justify-center text-center overflow-hidden bg-cover bg-center"
-      style={{ backgroundImage: "url('/images/4.jpg')" }} // apni image path yaha
+      style={{ backgroundImage: "url('/images/4.jpg')" }} 
     >
       {/* Dark overlay for readability */}
       <div className="absolute inset-0 bg-black/50"></div>

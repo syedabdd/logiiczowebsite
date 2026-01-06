@@ -5,6 +5,7 @@ import WhyUsSection from '../_components/whyUs'
 import GrowthMission from '../_components/growthmission'
 import ServicesHome from '../_components/seviceshome'
 import FAQ from '../_components/faq\'s'
+import Testimonials from '../_components/testimonials'
 
 export default function HomePage() {
   return (
@@ -12,6 +13,7 @@ export default function HomePage() {
     <Hero />
     <Hero2 />
     <WhyUsSection />
+    <Testimonials />
     <GrowthMission />
     <ServicesHome />
     <FAQ />
