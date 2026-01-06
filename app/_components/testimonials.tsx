@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 const testimonials = [
   {
@@ -18,22 +18,15 @@ const testimonials = [
       "We outsourced our customer support to Efficient Tech. Smooth process, cost-effective, and reliable service.",
     stars: 4,
   },
-  {
-    name: "Vikram Patel",
-    city: "Ahmedabad",
-    image: "https://randomuser.me/api/portraits/men/45.jpg",
-    review:
-      "Their business development and outsourcing support helped our startup scale faster. Highly recommended.",
-    stars: 5,
-  },
-  {
-    name: "Syed Azaruddin",
-    city: "Hyderabad",
-    image: "images/testi3.jpg",
-    review:
-      "Reliable BPO outsourcing with strong understanding of business needs. Great experience with Efficient Tech.",
-    stars: 4,
-  },
+//   {
+//     name: "Vikram Patel",
+//     city: "Ahmedabad",
+//     image: "https://randomuser.me/api/portraits/men/45.jpg",
+//     review:
+//       "Their business development and outsourcing support helped our startup scale faster. Highly recommended.",
+//     stars: 5,
+//   },
+ 
   {
     name: "Amit Verma",
     city: "Bengaluru",
@@ -42,14 +35,40 @@ const testimonials = [
       "From website to outsourcing services, Efficient Tech provided complete business support with quick response.",
     stars: 5,
   },
+   {
+    name: "Syed Azaruddin",
+    city: "Hyderabad",
+    image: "images/testi3.jpg",
+    review:
+      "Reliable BPO outsourcing with strong understanding of business needs. Great experience with Efficient Tech.",
+    stars: 4,
+  },
 ];
 
-// Default avatar
 const defaultAvatar = "https://www.gravatar.com/avatar/?d=mp&f=y";
 
 export default function Testimonials() {
   const [index, setIndex] = useState(0);
-  const visibleCards = 3;
+  const [visibleCards, setVisibleCards] = useState(3);
+
+  // Update visibleCards based on screen width
+  useEffect(() => {
+    const updateVisibleCards = () => {
+      const width = window.innerWidth;
+      if (width < 640) {
+        setVisibleCards(1); // Mobile
+      } else if (width < 1024) {
+        setVisibleCards(2); // Tablet
+      } else {
+        setVisibleCards(3); // Desktop
+      }
+    };
+
+    updateVisibleCards();
+    window.addEventListener("resize", updateVisibleCards);
+
+    return () => window.removeEventListener("resize", updateVisibleCards);
+  }, []);
 
   const nextSlide = () => {
     if (index + visibleCards < testimonials.length) {
@@ -78,7 +97,7 @@ export default function Testimonials() {
 
         {/* Slider */}
         <div className="relative">
-          <div className="grid gap-6 md:grid-cols-3">
+          <div className={`grid gap-6 md:grid-cols-${visibleCards}`}>
             {testimonials
               .slice(index, index + visibleCards)
               .map((item, i) => (
