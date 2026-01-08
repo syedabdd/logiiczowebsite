@@ -83,7 +83,7 @@ export default function Testimonials() {
   };
 
   return (
-    <section className="py-16 bg-gray-50">
+    <section className="py-10 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4">
         {/* Heading */}
         <div className="text-center mb-12">
@@ -145,27 +145,24 @@ export default function Testimonials() {
           </div>
 
           {/* Arrows */}
-          <button
-            onClick={prevSlide}
-            disabled={index === 0}
-            className={`absolute -left-6 top-1/2 -translate-y-1/2 bg-white shadow-md p-3 rounded-full hover:bg-gray-100 ${
-              index === 0 ? "opacity-50 cursor-not-allowed" : ""
-            }`}
-          >
-            ◀
-          </button>
+        {/* Dots Navigation */}
+<div className="flex justify-center mt-8 gap-2">
+  {Array.from({
+    length: testimonials.length - visibleCards + 1,
+  }).map((_, dotIndex) => (
+    <button
+      key={dotIndex}
+      onClick={() => setIndex(dotIndex)}
+      className={`h-3 w-3 rounded-full transition-all duration-300 ${
+        index === dotIndex
+          ? "bg-gray-900 scale-110"
+          : "bg-gray-300 hover:bg-gray-400"
+      }`}
+      aria-label={`Go to slide ${dotIndex + 1}`}
+    />
+  ))}
+</div>
 
-          <button
-            onClick={nextSlide}
-            disabled={index + visibleCards >= testimonials.length}
-            className={`absolute -right-6 top-1/2 -translate-y-1/2 bg-white shadow-md p-3 rounded-full hover:bg-gray-100 ${
-              index + visibleCards >= testimonials.length
-                ? "opacity-50 cursor-not-allowed"
-                : ""
-            }`}
-          >
-            ▶
-          </button>
         </div>
       </div>
     </section>
