@@ -15,7 +15,7 @@ const testimonials = [
     city: "Delhi",
     image: "",
     review:
-      "We outsourced our customer support to Efficient Tech. Smooth process, cost-effective, and reliable service.",
+      "We got process outsourced customer support from Efficient Tech. Smooth process, cost-effective, and reliable service.",
     stars: 4,
   },
 //   {
