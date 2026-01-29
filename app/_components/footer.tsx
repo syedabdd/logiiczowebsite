@@ -136,7 +136,7 @@ export default function Footer() {
 
           {/* Email */}
           <a
-            href={`mailto:${RECEIVER_EMAIL}`}
+            href={`/`}
             className="block text-gray-300 hover:text-[#00bf63] text-sm transition mb-2"
           >
             ✉️ {RECEIVER_EMAIL}
