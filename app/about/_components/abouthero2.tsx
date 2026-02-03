@@ -36,7 +36,7 @@ const AboutHero2: React.FC = () => {
           </h2>
 
           <p className="text-gray-700 text-sm font-serif sm:text-base leading-relaxed mb-4">
-            Efficient Tech was started in March 2020 with the mission of becoming 
+            Efficient Tech was started in 2024 with the mission of becoming 
             an evolution in the sector. It became certain that this perception would 
             become a reality when the company mounted new heights of success, which 
             began to be reflected in ongoing years.

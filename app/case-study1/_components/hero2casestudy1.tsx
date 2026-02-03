@@ -83,7 +83,7 @@ export default function Hero2CaseStudy1() {
             </p>
 
             <p className="text-gray-700 font-serif leading-relaxed text-[16px] md:text-[17px]">
-              In 2020, Efficient Tech came in as a strategic BPO partner to enable
+              In 2024, Efficient Tech came in as a strategic BPO partner to enable
               substantial growth and operational excellence.
             </p>
 
