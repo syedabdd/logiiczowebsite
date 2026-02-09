@@ -284,7 +284,7 @@ export default function AboutHero3() {
           Contact Center Services
         </h3>
         <p className="text-md font-serif leading-relaxed select-none drop-shadow-[0_2px_3px_rgba(0,0,0,0.8)]">
-          Efficient Tech Pvt Ltd is known for its efficiency in delivering
+          Efficient Tech is known for its efficiency in delivering
           cost-effective business process outsourcing solutions.
         </p>
       </div>
