@@ -24,7 +24,7 @@ const AboutHero1: React.FC = () => {
           About <span className="text-[#7ed957]">Efficient Tech</span> 
         </h1>
         <p className="text-lg md:text-2xl text-gray-200 font-serif hover:text-white transition-colors duration-500">
-          Leading the way in BPO excellence since 2010
+          Leading the way in BPO excellence since 2022
         </p>
       </motion.div>
 

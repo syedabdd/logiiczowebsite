@@ -15,7 +15,7 @@ export default function ContactPage() {
   const [status, setStatus] = useState("");
 
   const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
   ) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
@@ -83,13 +83,14 @@ export default function ContactPage() {
 
             <div className="space-y-5">
               <div className="flex items-center gap-3">
-                <Mail size={24} /> efficienttech@gmail.com
+                <Mail size={24} /> Info@efficienttech.com
               </div>
-              <div className="flex items-center gap-3">
+              {/* <div className="flex items-center gap-3">
                 <Phone size={24} /> +91 98765 43210
-              </div>
+              </div> */}
               <div className="flex items-center gap-3">
-                <MapPin size={24} /> Pune, India
+                <MapPin size={24} />
+                Pune, Maharashtra, India
               </div>
             </div>
           </div>
@@ -157,9 +158,7 @@ export default function ContactPage() {
             </motion.button>
 
             {status && (
-              <p className="text-center text-green-600 font-medium">
-                {status}
-              </p>
+              <p className="text-center text-green-600 font-medium">{status}</p>
             )}
           </form>
         </motion.div>

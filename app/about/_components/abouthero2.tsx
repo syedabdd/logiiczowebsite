@@ -32,7 +32,7 @@ const AboutHero2: React.FC = () => {
           viewport={{ once: true }}
         >
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#17223b] mb-6">
-            Efficient Tech Private Limited
+            Efficient Tech
           </h2>
 
           <p className="text-gray-700 text-sm font-serif sm:text-base leading-relaxed mb-4">

@@ -153,7 +153,7 @@ export default function AboutHero3() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: i * 0.1 }}
               whileHover={{ scale: 1.05 }}
-              className="p-6 bg-white rounded-2xl shadow-sm hover:shadow-lg transition-all border-t-4 border-[#00bf63]"
+              className="p-6 bg-white rounded-2xl shadow-sm hover:shadow-lg transition-all border-t-4 border-[#75d44c]"
             >
               <service.icon className="w-8 h-8 text-[#7ed957] mb-4" />
               <h4 className="font-semibold text-[#17223b] mb-2">

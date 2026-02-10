@@ -132,7 +132,7 @@ export default function Navbar() {
                           <Link
                             key={i}
                             href={drop.href}
-                            className="px-5 py-2 hover:bg-[#00bf63] hover:text-black cursor-pointer transition-all duration-300"
+                            className="px-5 py-2 hover:bg-[#7ed957] hover:text-black cursor-pointer transition-all duration-300"
                           >
                             {drop.name}
                           </Link>
