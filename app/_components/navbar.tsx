@@ -63,6 +63,7 @@ export default function Navbar() {
         { name: "Recruitment", href: "/recruitment" },
       ],
     },
+    { name: "Event Management", href: "/EventManagement" },
     { name: "Careers", href: "/careers" },
   ];
 
