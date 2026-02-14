@@ -181,7 +181,7 @@ export default function Footer() {
 
       {/* Footer Bottom */}
       <div className="border-t border-gray-700 py-4 text-center text-sm text-gray-400">
-        © {year ? year : "----"} Efficient Tech. All rights reserved.
+        © {year ? year : "----"} Efficient Tech Partnership. All rights reserved.
       </div>
 
       {/* Floating Contact Button */}

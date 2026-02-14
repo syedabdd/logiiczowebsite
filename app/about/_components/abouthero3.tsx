@@ -141,7 +141,7 @@ export default function AboutHero3() {
             Making Easy <span className="text-[#7ed957]">Business Growth</span>
           </h3>
           <p className="text-gray-600 font-serif mb-10">
-            From digital transformation to process excellence, Efficient Tech offers:
+            From digital transformation to process excellence, Efficient Tech Partnership offers:
           </p>
         </div>
 
@@ -284,7 +284,7 @@ export default function AboutHero3() {
           Contact Center Services
         </h3>
         <p className="text-md font-serif leading-relaxed select-none drop-shadow-[0_2px_3px_rgba(0,0,0,0.8)]">
-          Efficient Tech is known for its efficiency in delivering
+          Efficient Tech Partnership is known for its efficiency in delivering
           cost-effective business process outsourcing solutions.
         </p>
       </div>

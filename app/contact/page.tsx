@@ -104,7 +104,7 @@ export default function ContactPage() {
           className="md:w-1/2 md:p-10 p-6 flex flex-col justify-center"
         >
           <h3 className="text-3xl font-bold text-gray-800 mb-8">
-            Contact <span className="text-[#7ed957]">Efficient</span>
+            Contact <span className="text-[#7ed957]">Efficient Tech</span>
           </h3>
 
           <form onSubmit={handleSubmit} className="space-y-6">

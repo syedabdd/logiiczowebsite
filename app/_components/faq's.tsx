@@ -20,7 +20,7 @@ export default function FAQ() {
     {
       question: "What is call center outsourcing?",
       answer:
-        "In business, outsourcing is the process of transferring certain tasks or services to another party. Call center outsourcing is the practice of hiring a third party to effectively handle your customer support, sales, lead generation or back office processing. In fact, you can outsource to an agency which is close to home or halfway around the world. Efficient Tech is a company that specializes in being a third party service provider.",
+        "In business, outsourcing is the process of transferring certain tasks or services to another party. Call center outsourcing is the practice of hiring a third party to effectively handle your customer support, sales, lead generation or back office processing. In fact, you can outsource to an agency which is close to home or halfway around the world. Efficient Tech Partnership is a company that specializes in being a third party service provider.",
     },
     {
       question: "How to reduce call center costs?",

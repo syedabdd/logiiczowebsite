@@ -53,7 +53,7 @@ export default function Hero2BPOConsulting() {
         {/* FIXED LINE WITH APOSTROPHE */}
         <p className="text-gray-600 font-serif text-base md:text-lg leading-relaxed">
           Business Process Outsourcing is more than a cost-cutting strategy —
-          it&rsquo;s a transformation lever. At Efficient Tech, we empower
+          it&rsquo;s a transformation lever. At Efficient Tech Partnership, we empower
           businesses with flexible, scalable solutions tailored to optimize
           operations and enhance performance.
         </p>

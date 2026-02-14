@@ -69,7 +69,7 @@ export default function Careers() {
           transition={{ duration: 0.8 }}
           className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-white relative z-10 drop-shadow-lg"
         >
-          Careers at <span className="text-[#7ed957]">Efficient Tech</span>
+          Careers at <span className="text-[#7ed957]">Efficient Tech Partnership</span>
         </motion.h1>
 
         <motion.p

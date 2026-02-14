@@ -15,7 +15,7 @@ const testimonials = [
     city: "Delhi",
     image: "",
     review:
-      "We got process outsourced customer support from Efficient Tech. Smooth process, cost-effective, and reliable service.",
+      "We got process outsourced customer support from Efficient Tech Partnership. Smooth process, cost-effective, and reliable service.",
     stars: 4,
   },
 //   {
@@ -32,7 +32,7 @@ const testimonials = [
     city: "Bengaluru",
     image: "",
     review:
-      "From website to outsourcing services, Efficient Tech provided complete business support with quick response.",
+      "From website to outsourcing services, Efficient Tech Partnership provided complete business support with quick response.",
     stars: 5,
   },
    {
@@ -40,7 +40,7 @@ const testimonials = [
     city: "Hyderabad",
     image: "images/testi3.jpg",
     review:
-      "Reliable BPO outsourcing with strong understanding of business needs. Great experience with Efficient Tech.",
+      "Reliable BPO outsourcing with strong understanding of business needs. Great experience with Efficient Tech Partnership.",
     stars: 4,
   },
 ];

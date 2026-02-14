@@ -83,7 +83,7 @@ export default function Hero2CaseStudy1() {
             </p>
 
             <p className="text-gray-700 font-serif leading-relaxed text-[16px] md:text-[17px]">
-              In 2024, Efficient Tech came in as a strategic BPO partner to enable
+              In 2022, Efficient Tech Partnership came in as a strategic BPO partner to enable
               substantial growth and operational excellence.
             </p>
 
@@ -146,7 +146,7 @@ export default function Hero2CaseStudy1() {
             viewport={{ once: true }}
             className="text-2xl md:text-3xl font-semibold text-[#1e2a47] mb-10"
           >
-            How <span className="text-[#7ed957]">Efficient Tech</span> Helped
+            How <span className="text-[#7ed957]">Efficient Tech Partnership</span> Helped
           </motion.h2>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 justify-center">
