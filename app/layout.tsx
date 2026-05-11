@@ -35,6 +35,7 @@ export default function RootLayout({
 
       <h2 className="mt-4 text-3xl font-semibold">
         Page Not Found
+        
       </h2>
 
       <p className="mt-3 max-w-md text-center text-gray-400">
