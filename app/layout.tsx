@@ -31,11 +31,11 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-col min-h-screen`}
       >
          <div className="flex min-h-screen flex-col items-center justify-center bg-black px-6 text-white">
-      <h1 className="text-7xl font-bold text-red-500">404</h1>
+      <h1 className="text-7xl font-bold">404</h1>
 
       <h2 className="mt-4 text-3xl font-semibold">
         Page Not Found
-        
+
       </h2>
 
       <p className="mt-3 max-w-md text-center text-gray-400">
