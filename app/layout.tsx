@@ -30,7 +30,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-col min-h-screen`}
       >
-         <div className="flex min-h-screen flex-col items-center justify-center bg-black px-6 text-white">
+         {/* <div className="flex min-h-screen flex-col items-center justify-center bg-black px-6 text-white">
       <h1 className="text-7xl font-bold">404</h1>
 
       <h2 className="mt-4 text-3xl font-semibold">
@@ -41,12 +41,12 @@ export default function RootLayout({
       <p className="mt-3 max-w-md text-center text-gray-400">
         Sorry, the page you are looking for doesn’t exist or has been moved.
       </p>
-      </div>
-        {/* <Navbar />
+      </div> */}
+        <Navbar />
         <main className="flex-1">
           <ClientLayoutWrapper>{children}</ClientLayoutWrapper>
         </main>
-        <Footer /> */}
+        <Footer />
       </body>
     </html>
   );
